@@ -1,0 +1,2356 @@
+{
+  "products": [
+    {
+      "id": "16697",
+      "slug": "pd-p92059",
+      "productName": "PD-P92059",
+      "productCode": "PD-P92059",
+      "brand": "Cayman Newlight",
+      "categories": [
+        "Home light",
+        "PENDANT LIGHT"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P92059.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P56086-2.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P56086-3.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "PD-P92059-2+1/MLK",
+          "power": "25W",
+          "voltage": "220-240V",
+          "colorTemperature": "3000K/4000K/6500K",
+          "luminousOutput": "60 lm",
+          "dimensions": "\u03c615*H11.5 + \u03c66*H9cm"
+        },
+        {
+          "itemNo": "PD-P92059-2+1/RED",
+          "power": "25W",
+          "voltage": "220-240V",
+          "colorTemperature": "3000K/4000K/6500K",
+          "luminousOutput": "60 lm",
+          "dimensions": "\u03c615*H11.5+\u03c66*H9cm"
+        },
+        {
+          "itemNo": "PD-P92059-2+1/BK",
+          "power": "25W",
+          "voltage": "220-240V",
+          "colorTemperature": "3000K/4000K/6500K",
+          "luminousOutput": "60 lm",
+          "dimensions": "\u03c615*H11.5+\u03c66*H9cm"
+        },
+        {
+          "itemNo": "PD-P92059-2+1/GY",
+          "power": "25W",
+          "voltage": "220-240V",
+          "colorTemperature": "3000K/4000K/6500K",
+          "luminousOutput": "60 lm",
+          "dimensions": "\u03c615*H11.5+\u03c66*H9cm"
+        }
+      ],
+      "specifications": {
+        "power": "25W",
+        "voltage": "220-240V",
+        "colorTemperature": "3000K/4000K/6500K",
+        "luminousOutput": "60 lm",
+        "dimensions": "\u03c615*H11.5 + \u03c66*H9cm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/pd-p92059/"
+    },
+    {
+      "id": "16696",
+      "slug": "pd-p77394",
+      "productName": "PD-P77394",
+      "productCode": "PD-P77394",
+      "brand": "Cayman Newlight",
+      "categories": [
+        "Home light",
+        "PENDANT LIGHT"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P77394.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P77394-2.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "PD-P77394-1-GRY",
+          "power": "10W",
+          "voltage": "220-240V",
+          "colorTemperature": "4000K",
+          "luminousOutput": "60 lm",
+          "dimensions": "D150-L100*H2000 mm"
+        },
+        {
+          "itemNo": "PD-P77394-1-CLR",
+          "power": "10W",
+          "voltage": "220-240V",
+          "colorTemperature": "4000K",
+          "luminousOutput": "60 lm",
+          "dimensions": "D150-L100*H2000 mm"
+        },
+        {
+          "itemNo": "PD-P77394-1-AMB",
+          "power": "10W",
+          "voltage": "220-240V",
+          "colorTemperature": "4000K",
+          "luminousOutput": "60 lm",
+          "dimensions": "D150-L100*H2000 mm"
+        }
+      ],
+      "specifications": {
+        "power": "10W",
+        "voltage": "220-240V",
+        "colorTemperature": "4000K",
+        "luminousOutput": "60 lm",
+        "dimensions": "D150-L100*H2000 mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/pd-p77394/"
+    },
+    {
+      "id": "16695",
+      "slug": "pdyt-p84231",
+      "productName": "PDYT-P84231",
+      "productCode": "PDYT-P84231",
+      "brand": "Cayman Newlight",
+      "categories": [
+        "Home light",
+        "PENDANT LIGHT"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/11/PDYT-P84231.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/11/PDYT-P84231-2.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "PDYT-P84231",
+          "power": "5W",
+          "voltage": "220-240V",
+          "colorTemperature": "3000K",
+          "dimensions": "180*175 mm"
+        }
+      ],
+      "specifications": {
+        "power": "5W",
+        "voltage": "220-240V",
+        "colorTemperature": "3000K",
+        "dimensions": "180*175 mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/pdyt-p84231/"
+    },
+    {
+      "id": "16694",
+      "slug": "p-83402",
+      "productName": "P-83402",
+      "productCode": "P-83402",
+      "brand": "Cayman Newlight",
+      "categories": [
+        "Home light",
+        "PENDANT LIGHT"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/11/P-83402.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/11/P-83402-2.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "P-83402",
+          "power": "12W",
+          "voltage": "220-240V",
+          "colorTemperature": "3000K",
+          "luminousOutput": "80 lm",
+          "dimensions": "330xH220 mm"
+        }
+      ],
+      "specifications": {
+        "power": "12W",
+        "voltage": "220-240V",
+        "colorTemperature": "3000K",
+        "luminousOutput": "80 lm",
+        "dimensions": "330xH220 mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/p-83402/"
+    },
+    {
+      "id": "16693",
+      "slug": "pd-p77413",
+      "productName": "PD-P77413",
+      "productCode": "PD-P77413",
+      "brand": "Cayman Newlight",
+      "categories": [
+        "Home light",
+        "PENDANT LIGHT"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P77413.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P77413-4.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P77413-3.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P77413-2.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "PD-P77413-1-BEG",
+          "power": "6W",
+          "voltage": "220-240V",
+          "colorTemperature": "4000K",
+          "luminousOutput": "60 lm",
+          "dimensions": "D250*L240*H2000 mm"
+        },
+        {
+          "itemNo": "PD-P77413-1-GRY",
+          "power": "6W",
+          "voltage": "220-240V",
+          "colorTemperature": "4000K",
+          "luminousOutput": "60 lm",
+          "dimensions": "D250*L240*H2000 mm"
+        },
+        {
+          "itemNo": "PD-P77413-1-COF",
+          "power": "6W",
+          "voltage": "220-240V",
+          "colorTemperature": "4000K",
+          "luminousOutput": "60 lm",
+          "dimensions": "D250*L240*H2000 mm"
+        }
+      ],
+      "specifications": {
+        "power": "6W",
+        "voltage": "220-240V",
+        "colorTemperature": "4000K",
+        "luminousOutput": "60 lm",
+        "dimensions": "D250*L240*H2000 mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/pd-p77413/"
+    },
+    {
+      "id": "16692",
+      "slug": "pd-p98722",
+      "productName": "PD-P98722",
+      "productCode": "PD-P98722",
+      "brand": "Cayman Newlight",
+      "categories": [
+        "Home light",
+        "PENDANT LIGHT"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P98722-3.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P98722.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P98722-2.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "PD-P98722-400/GY",
+          "power": "12W",
+          "voltage": "220-240V",
+          "colorTemperature": "3000K/4000K/6500K",
+          "luminousOutput": "60 lm",
+          "dimensions": "D400*100 mm"
+        },
+        {
+          "itemNo": "PD-P98722-400/MLK",
+          "power": "12W",
+          "voltage": "220-240V",
+          "colorTemperature": "3000K/4000K/6500K",
+          "luminousOutput": "60 lm",
+          "dimensions": "D400*100 mm"
+        },
+        {
+          "itemNo": "PD-P98722-400/BRW",
+          "power": "12W",
+          "voltage": "220-240V",
+          "colorTemperature": "3000K/4000K/6500K",
+          "luminousOutput": "60 lm",
+          "dimensions": "D400*100 mm"
+        }
+      ],
+      "specifications": {
+        "power": "12W",
+        "voltage": "220-240V",
+        "colorTemperature": "3000K/4000K/6500K",
+        "luminousOutput": "60 lm",
+        "dimensions": "D400*100 mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/pd-p98722/"
+    },
+    {
+      "id": "16691",
+      "slug": "pd-p92911-12",
+      "productName": "PD-P92911/12",
+      "productCode": "PD-P92911/12",
+      "brand": "Cayman Newlight",
+      "categories": [
+        "Home light",
+        "PENDANT LIGHT"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P92911_12-2.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P92911_12.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "PD-P92911",
+          "power": "3W",
+          "voltage": "220-240V",
+          "colorTemperature": "3000K",
+          "luminousOutput": "60 lm",
+          "dimensions": "400 mm"
+        },
+        {
+          "itemNo": "PD-P92912",
+          "power": "3W",
+          "voltage": "220-240V",
+          "colorTemperature": "3000K",
+          "luminousOutput": "60 lm",
+          "dimensions": "400 mm"
+        }
+      ],
+      "specifications": {
+        "power": "3W",
+        "voltage": "220-240V",
+        "colorTemperature": "3000K",
+        "luminousOutput": "60 lm",
+        "dimensions": "400 mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/pd-p92911-12/"
+    },
+    {
+      "id": "16690",
+      "slug": "wl-w4086-pd-p4086",
+      "productName": "WL-W4086/PD-P4086",
+      "productCode": "WL-W4086/PD-P4086",
+      "brand": "Cayman Newlight",
+      "categories": [
+        "Home light",
+        "PENDANT LIGHT"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/11/WL-W4086_PD-P4086.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/11/WL-W4086_PD-P4086-2.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "WL-W4086",
+          "power": "8W",
+          "voltage": "220-240V",
+          "colorTemperature": "3000K/4000K/6500K",
+          "luminousOutput": "60 lm",
+          "dimensions": "150*350*190 mm"
+        },
+        {
+          "itemNo": "PD-P4086",
+          "power": "8W",
+          "voltage": "220-240V",
+          "colorTemperature": "3000K/4000K/6500K",
+          "luminousOutput": "60 lm",
+          "dimensions": "160*315*1500 mm"
+        }
+      ],
+      "specifications": {
+        "power": "8W",
+        "voltage": "220-240V",
+        "colorTemperature": "3000K/4000K/6500K",
+        "luminousOutput": "60 lm",
+        "dimensions": "150*350*190 mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/wl-w4086-pd-p4086/"
+    },
+    {
+      "id": "16681",
+      "slug": "pd-p56086",
+      "productName": "PD-P56086",
+      "productCode": "PD-P56086",
+      "brand": "Cayman Newlight",
+      "categories": [
+        "Home light",
+        "PENDANT LIGHT"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P56086.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P56086-2.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P56086-3.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "PD-P56086",
+          "power": "10W",
+          "voltage": "220-240V",
+          "colorTemperature": "3000K/4000K/6500K",
+          "luminousOutput": "60 lm",
+          "dimensions": "L220*W70*H1200 mm"
+        },
+        {
+          "itemNo": "PD-P56086",
+          "power": "10*2W",
+          "voltage": "220-240V",
+          "colorTemperature": "3000K/4000K/6500K",
+          "luminousOutput": "60 lm",
+          "dimensions": "L420*W70*H1200 mm"
+        }
+      ],
+      "specifications": {
+        "power": "10W",
+        "voltage": "220-240V",
+        "colorTemperature": "3000K/4000K/6500K",
+        "luminousOutput": "60 lm",
+        "dimensions": "L220*W70*H1200 mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/pd-p56086/"
+    },
+    {
+      "id": "16680",
+      "slug": "pd-p98577",
+      "productName": "PD-P98577",
+      "productCode": "PD-P98577",
+      "brand": "Cayman Newlight",
+      "categories": [
+        "Home light",
+        "PENDANT LIGHT"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P98577.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P98577-2.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P98577-4.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "PD-P98577-1",
+          "power": "12W",
+          "voltage": "220-240V",
+          "colorTemperature": "3000K/4000K/6500K",
+          "luminousOutput": "60 lm",
+          "dimensions": "60*100 mm"
+        },
+        {
+          "itemNo": "PD-P98577-4",
+          "power": "48W",
+          "voltage": "220-240V",
+          "colorTemperature": "3000K/4000K/6500K",
+          "luminousOutput": "60 lm",
+          "dimensions": "950*80 mm"
+        }
+      ],
+      "specifications": {
+        "power": "12W",
+        "voltage": "220-240V",
+        "colorTemperature": "3000K/4000K/6500K",
+        "luminousOutput": "60 lm",
+        "dimensions": "60*100 mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/pd-p98577/"
+    },
+    {
+      "id": "16679",
+      "slug": "pd-p98603",
+      "productName": "PD-P98603",
+      "productCode": "PD-P98603",
+      "brand": "Cayman Newlight",
+      "categories": [
+        "Home light",
+        "PENDANT LIGHT"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P98603.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P98603-3.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P98603-2.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "PD-P98603",
+          "power": "8W",
+          "voltage": "220-240V",
+          "colorTemperature": "3000K/4000K/6500K",
+          "luminousOutput": "60 lm"
+        }
+      ],
+      "specifications": {
+        "power": "8W",
+        "voltage": "220-240V",
+        "colorTemperature": "3000K/4000K/6500K",
+        "luminousOutput": "60 lm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/pd-p98603/"
+    },
+    {
+      "id": "16678",
+      "slug": "pd-p9295",
+      "productName": "PD-P9295",
+      "productCode": "PD-P9295",
+      "brand": "Cayman Newlight",
+      "categories": [
+        "Home light",
+        "PENDANT LIGHT"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P9295.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P9295-2.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P9295-3.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "PD-P9295",
+          "voltage": "220-240V",
+          "colorTemperature": "3000K/4000K/6500K",
+          "luminousOutput": "60 lm",
+          "dimensions": "295 mm"
+        }
+      ],
+      "specifications": {
+        "voltage": "220-240V",
+        "colorTemperature": "3000K/4000K/6500K",
+        "luminousOutput": "60 lm",
+        "dimensions": "295 mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/pd-p9295/"
+    },
+    {
+      "id": "16677",
+      "slug": "pd-p77295",
+      "productName": "PD-P77295",
+      "productCode": "PD-P77295",
+      "brand": "Cayman Newlight",
+      "categories": [
+        "Home light",
+        "PENDANT LIGHT"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P77295.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P77295-3.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P77295-2.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "PD-P77295",
+          "voltage": "220-240V",
+          "colorTemperature": "3000K/4000K/6500K",
+          "luminousOutput": "60 lm",
+          "dimensions": "295 mm"
+        }
+      ],
+      "specifications": {
+        "voltage": "220-240V",
+        "colorTemperature": "3000K/4000K/6500K",
+        "luminousOutput": "60 lm",
+        "dimensions": "295 mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/pd-p77295/"
+    },
+    {
+      "id": "16676",
+      "slug": "pd-p77380",
+      "productName": "PD-P77380",
+      "productCode": "PD-P77380",
+      "brand": "Cayman Newlight",
+      "categories": [
+        "Home light",
+        "PENDANT LIGHT"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P77380.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P77380-2.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "PD-P77380-BK",
+          "power": "5W",
+          "voltage": "220-240V",
+          "colorTemperature": "4000K",
+          "luminousOutput": "60 lm",
+          "dimensions": "L400*W65*H2000 mm"
+        },
+        {
+          "itemNo": "PD-P77380-COF",
+          "power": "5W",
+          "voltage": "220-240V",
+          "colorTemperature": "4000K",
+          "luminousOutput": "60 lm",
+          "dimensions": "L400*W65*H2000 mm"
+        },
+        {
+          "itemNo": "PD-P77380-GRY",
+          "power": "5W",
+          "voltage": "220-240V",
+          "colorTemperature": "4000K",
+          "luminousOutput": "60 lm",
+          "dimensions": "L400*W65*H2000 mm"
+        }
+      ],
+      "specifications": {
+        "power": "5W",
+        "voltage": "220-240V",
+        "colorTemperature": "4000K",
+        "luminousOutput": "60 lm",
+        "dimensions": "L400*W65*H2000 mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/pd-p77380/"
+    },
+    {
+      "id": "16675",
+      "slug": "pd-p92407",
+      "productName": "PD-P92407",
+      "productCode": "PD-P92407",
+      "brand": "Cayman Newlight",
+      "categories": [
+        "Home light",
+        "PENDANT LIGHT"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P92407.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P92407-2.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "PD-P92407",
+          "power": "10W",
+          "voltage": "220-240V",
+          "colorTemperature": "3000K/4000K/6500K",
+          "luminousOutput": "60 lm",
+          "dimensions": "D250*H290 mm"
+        }
+      ],
+      "specifications": {
+        "power": "10W",
+        "voltage": "220-240V",
+        "colorTemperature": "3000K/4000K/6500K",
+        "luminousOutput": "60 lm",
+        "dimensions": "D250*H290 mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/pd-p92407/"
+    },
+    {
+      "id": "16674",
+      "slug": "pd-p98641",
+      "productName": "PD-P98641",
+      "productCode": "PD-P98641",
+      "brand": "Cayman Newlight",
+      "categories": [
+        "Home light",
+        "PENDANT LIGHT"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P98641.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P98641-2.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "PD-P98641",
+          "power": "10W",
+          "voltage": "220-240V",
+          "colorTemperature": "3000K/4000k/6500K",
+          "luminousOutput": "60 lm",
+          "dimensions": "60*100 mm"
+        }
+      ],
+      "specifications": {
+        "power": "10W",
+        "voltage": "220-240V",
+        "colorTemperature": "3000K/4000k/6500K",
+        "luminousOutput": "60 lm",
+        "dimensions": "60*100 mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/pd-p98641/"
+    },
+    {
+      "id": "16673",
+      "slug": "pd-p98704",
+      "productName": "PD-P98704",
+      "productCode": "PD-P98704",
+      "brand": "Cayman Newlight",
+      "categories": [
+        "Home light",
+        "PENDANT LIGHT"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P98704.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P98704-2.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "PD-P98704",
+          "power": "9W",
+          "voltage": "220-240V",
+          "colorTemperature": "3000K/4000K/6500K",
+          "luminousOutput": "60 lm",
+          "dimensions": "70*90 mm"
+        }
+      ],
+      "specifications": {
+        "power": "9W",
+        "voltage": "220-240V",
+        "colorTemperature": "3000K/4000K/6500K",
+        "luminousOutput": "60 lm",
+        "dimensions": "70*90 mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/pd-p98704/"
+    },
+    {
+      "id": "16672",
+      "slug": "pd-p92915",
+      "productName": "PD-P92915",
+      "productCode": "PD-P92915",
+      "brand": "Cayman Newlight",
+      "categories": [
+        "Home light",
+        "PENDANT LIGHT"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P92915.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "PD-P92915",
+          "power": "12W",
+          "voltage": "220-240V",
+          "colorTemperature": "3000K",
+          "luminousOutput": "60 lm"
+        }
+      ],
+      "specifications": {
+        "power": "12W",
+        "voltage": "220-240V",
+        "colorTemperature": "3000K",
+        "luminousOutput": "60 lm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/pd-p92915/"
+    },
+    {
+      "id": "16669",
+      "slug": "pd-p60040",
+      "productName": "PD-P60040",
+      "productCode": "PD-P60040",
+      "brand": "Cayman Newlight",
+      "categories": [
+        "Home light",
+        "PENDANT LIGHT"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P60040.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/11/PD-P60040-2.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "PD-P60040-PKW",
+          "power": "9W",
+          "voltage": "220-240V",
+          "colorTemperature": "3000K",
+          "dimensions": "180*180*1500 mm"
+        },
+        {
+          "itemNo": "PD-P60040-SBK",
+          "power": "9W",
+          "voltage": "220-240V",
+          "colorTemperature": "3000K",
+          "dimensions": "180*180*1500 mm"
+        },
+        {
+          "itemNo": "PD-P60040-SGD",
+          "power": "9W",
+          "voltage": "220-240V",
+          "colorTemperature": "3000K",
+          "dimensions": "180*180*1500 mm"
+        }
+      ],
+      "specifications": {
+        "power": "9W",
+        "voltage": "220-240V",
+        "colorTemperature": "3000K",
+        "dimensions": "180*180*1500 mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/pd-p60040/"
+    },
+    {
+      "id": "16668",
+      "slug": "p-88052",
+      "productName": "P-88052",
+      "productCode": "P-88052",
+      "brand": "Cayman Newlight",
+      "categories": [
+        "Home light",
+        "PENDANT LIGHT"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/11/P-88052-1.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/11/P-88052.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "P-88052",
+          "power": "E27",
+          "voltage": "220-240V",
+          "dimensions": "W270*H270 mm"
+        }
+      ],
+      "specifications": {
+        "power": "E27",
+        "voltage": "220-240V",
+        "dimensions": "W270*H270 mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/p-88052/"
+    },
+    {
+      "id": "16366",
+      "slug": "hyd-968",
+      "productName": "HYD-968",
+      "productCode": "HYD-968",
+      "brand": "Hyundai Lighting",
+      "categories": [
+        "FLOOR LIGHT",
+        "Home light",
+        "Hyundai Lighting"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/08/HYD-968.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/08/HYD-968-2.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/08/HYD-966-4.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/08/HYD-968-3.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "HYD-968",
+          "power": "40W-top, 60W-bottom",
+          "voltage": "220-240V",
+          "colorTemperature": "4000K",
+          "luminousEfficiency": "70 lm/w",
+          "dimensions": "604*304 mm",
+          "lampBaseSize": "490*295*2058 mm"
+        }
+      ],
+      "specifications": {
+        "power": "40W-top, 60W-bottom",
+        "voltage": "220-240V",
+        "colorTemperature": "4000K",
+        "luminousEfficiency": "70 lm/w",
+        "dimensions": "604*304 mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/hyd-968/"
+    },
+    {
+      "id": "16365",
+      "slug": "hyd-967",
+      "productName": "HYD-967",
+      "productCode": "HYD-967",
+      "brand": "Hyundai Lighting",
+      "categories": [
+        "FLOOR LIGHT",
+        "Home light",
+        "Hyundai Lighting"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/08/HYD-967.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/08/HYD-966-7.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/08/HYD-967-2.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/08/HYD-966-4.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/08/HYD-967-3.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "HYD-967",
+          "power": "30W-top, 40W-bottom",
+          "voltage": "220-240V",
+          "colorTemperature": "4000K",
+          "luminousEfficiency": "70 lm/w",
+          "dimensions": "50*20 mm",
+          "lampBaseSize": "846*270*1980 mm"
+        }
+      ],
+      "specifications": {
+        "power": "30W-top, 40W-bottom",
+        "voltage": "220-240V",
+        "colorTemperature": "4000K",
+        "luminousEfficiency": "70 lm/w",
+        "dimensions": "50*20 mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/hyd-967/"
+    },
+    {
+      "id": "16346",
+      "slug": "hyd-966",
+      "productName": "HYD-966",
+      "productCode": "HYD-966",
+      "brand": "Hyundai Lighting",
+      "categories": [
+        "FLOOR LIGHT",
+        "Home light",
+        "Hyundai Lighting"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/08/HYD-966.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/08/HYD-966-7.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/08/HYD-966-3.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/08/HYD-966-4.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/08/HYD-966-5.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "HYD-966",
+          "power": "36W",
+          "voltage": "220-240V",
+          "colorTemperature": "4000K",
+          "luminousEfficiency": "70 lm/w",
+          "dimensions": "40*20 mm",
+          "lampBaseSize": "650*100 mm"
+        }
+      ],
+      "specifications": {
+        "power": "36W",
+        "voltage": "220-240V",
+        "colorTemperature": "4000K",
+        "luminousEfficiency": "70 lm/w",
+        "dimensions": "40*20 mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/hyd-966/"
+    },
+    {
+      "id": "15992",
+      "slug": "hyd-719",
+      "productName": "HYD-719",
+      "productCode": "HYD-719",
+      "brand": "Hyundai Lighting",
+      "categories": [
+        "Commercial Light",
+        "HIGH BAY",
+        "Hyundai Lighting"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/06/HYD-719.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/06/HYD-719-2.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/06/HYD-719-3.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/06/HYD-719-4.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/06/HYD-719-5.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "HYD-719-A",
+          "power": "70/90/120W",
+          "voltage": "220-240V",
+          "colorTemperature": "3000K/4500K/6500K",
+          "luminousEfficiency": "150 lm/w",
+          "dimensions": "255*255*140 mm"
+        },
+        {
+          "itemNo": "HYD-719-B",
+          "power": "120/150/200W",
+          "voltage": "220-240V",
+          "colorTemperature": "3000K/4500K/6500K",
+          "luminousEfficiency": "150 lm/w",
+          "dimensions": "320*320*150 mm"
+        }
+      ],
+      "specifications": {
+        "power": "70/90/120W",
+        "voltage": "220-240V",
+        "colorTemperature": "3000K/4500K/6500K",
+        "luminousEfficiency": "150 lm/w",
+        "dimensions": "255*255*140 mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/hyd-719/"
+    },
+    {
+      "id": "15516",
+      "slug": "hyd-380",
+      "productName": "HYD-380",
+      "productCode": "HYD-380",
+      "brand": "Hyundai Lighting",
+      "categories": [
+        "Commercial Light",
+        "Hyundai Lighting",
+        "SPOT LIGHT"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/05/HYD-380-2-1.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/05/HYD-380-2.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "HYD-380-5W",
+          "power": "5W",
+          "voltage": "220-240V",
+          "colorTemperature": "3000K/4000K/6500K",
+          "dimensions": "58*84 mm"
+        },
+        {
+          "itemNo": "HYD-380-8W",
+          "power": "8W",
+          "voltage": "220-240V",
+          "colorTemperature": "3000K/4000K/6500K",
+          "dimensions": "64*95 mm"
+        },
+        {
+          "itemNo": "HYD-380-12W",
+          "power": "12W",
+          "voltage": "220-240V",
+          "colorTemperature": "3000K/4000K/6500K",
+          "dimensions": "70*106 mm"
+        }
+      ],
+      "specifications": {
+        "power": "5W",
+        "voltage": "220-240V",
+        "colorTemperature": "3000K/4000K/6500K",
+        "dimensions": "58*84 mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/hyd-380/"
+    },
+    {
+      "id": "15506",
+      "slug": "hyd-370",
+      "productName": "HYD-370",
+      "productCode": "HYD-370",
+      "brand": "Hyundai Lighting",
+      "categories": [
+        "Commercial Light",
+        "Hyundai Lighting",
+        "SPOT LIGHT"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/05/HYD-370-2-1.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/05/HYD-370-2.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "HYD-370-12W",
+          "power": "12W",
+          "voltage": "220-240V",
+          "colorTemperature": "3000K/4000K",
+          "dimensions": "83*65 mm",
+          "cutOut": "75 mm"
+        }
+      ],
+      "specifications": {
+        "power": "12W",
+        "voltage": "220-240V",
+        "colorTemperature": "3000K/4000K",
+        "dimensions": "83*65 mm",
+        "cutOut": "75 mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/hyd-370/"
+    },
+    {
+      "id": "15369",
+      "slug": "hyd-150-24-li-exc",
+      "productName": "HYD-150-24 LI EXC",
+      "productCode": "HYD-150-24 LI EXC",
+      "brand": "Hyundai Lighting",
+      "categories": [
+        "DRIVER",
+        "Drivers",
+        "Hyundai Lighting"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/04/HYD-150-24-LI-EXC.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "HYD-150-24 LI EXC",
+          "power": "150W",
+          "inputVoltage": "220-240V",
+          "outputCurrent": "0-6.25A",
+          "outputVoltage": "24V",
+          "dimensions": "227*38*30mm"
+        }
+      ],
+      "specifications": {
+        "power": "150W",
+        "inputVoltage": "220-240V",
+        "outputVoltage": "24V",
+        "outputCurrent": "0-6.25A",
+        "dimensions": "227*38*30mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/hyd-150-24-li-exc/"
+    },
+    {
+      "id": "15368",
+      "slug": "hyd-120-24-li-exc",
+      "productName": "HYD-120-24 LI EXC",
+      "productCode": "HYD-120-24 LI EXC",
+      "brand": "Hyundai Lighting",
+      "categories": [
+        "DRIVER",
+        "Drivers",
+        "Hyundai Lighting"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/04/HYD-120-24-LI-EXC.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "HYD-120-24 LI EXC",
+          "power": "120W",
+          "inputVoltage": "220-240V",
+          "outputCurrent": "0-5A",
+          "outputVoltage": "24V",
+          "dimensions": "227*38*30mm"
+        }
+      ],
+      "specifications": {
+        "power": "120W",
+        "inputVoltage": "220-240V",
+        "outputVoltage": "24V",
+        "outputCurrent": "0-5A",
+        "dimensions": "227*38*30mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/hyd-120-24-li-exc/"
+    },
+    {
+      "id": "15367",
+      "slug": "hyd-75-24-li-exc",
+      "productName": "HYD-75-24 LI EXC",
+      "productCode": "HYD-75-24 LI EXC",
+      "brand": "Hyundai Lighting",
+      "categories": [
+        "DRIVER",
+        "Drivers",
+        "Hyundai Lighting"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/04/HYD-75-24-LI-EXC.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "HYD-75-24 LI EXC",
+          "power": "75W",
+          "inputVoltage": "220-240V",
+          "outputCurrent": "0-3.13A",
+          "outputVoltage": "24V",
+          "dimensions": "168*38*30mm"
+        }
+      ],
+      "specifications": {
+        "power": "75W",
+        "inputVoltage": "220-240V",
+        "outputVoltage": "24V",
+        "outputCurrent": "0-3.13A",
+        "dimensions": "168*38*30mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/hyd-75-24-li-exc/"
+    },
+    {
+      "id": "15366",
+      "slug": "hyd-150-24-dali-2-li",
+      "productName": "HYD-150-24 DALI-2 LI",
+      "productCode": "HYD-150-24 DALI-2 LI",
+      "brand": "Hyundai Lighting",
+      "categories": [
+        "DRIVER",
+        "Drivers",
+        "Hyundai Lighting"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/04/HYD-150-24-DALI-2-LI.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "HYD-150-24 DALI-2 LI",
+          "power": "150W",
+          "inputVoltage": "220-240V",
+          "outputCurrent": "0-6.25A",
+          "outputVoltage": "24V",
+          "dimensions": "318*38*30 mm"
+        }
+      ],
+      "specifications": {
+        "power": "150W",
+        "inputVoltage": "220-240V",
+        "outputVoltage": "24V",
+        "outputCurrent": "0-6.25A",
+        "dimensions": "318*38*30 mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/hyd-150-24-dali-2-li/"
+    },
+    {
+      "id": "15365",
+      "slug": "hyd-60-24-li-exc",
+      "productName": "HYD-60-24 LI EXC",
+      "productCode": "HYD-60-24 LI EXC",
+      "brand": "Hyundai Lighting",
+      "categories": [
+        "DRIVER",
+        "Drivers",
+        "Hyundai Lighting"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/04/HYD-60-24-LI-EXC.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "HYD-60-24 LI EXC",
+          "power": "60W",
+          "inputVoltage": "220-240V",
+          "outputCurrent": "0-2.5A",
+          "outputVoltage": "24V",
+          "dimensions": "113*43*25 mm"
+        }
+      ],
+      "specifications": {
+        "power": "60W",
+        "inputVoltage": "220-240V",
+        "outputVoltage": "24V",
+        "outputCurrent": "0-2.5A",
+        "dimensions": "113*43*25 mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/hyd-60-24-li-exc/"
+    },
+    {
+      "id": "15364",
+      "slug": "hyd-vts-100-24-ip67-l",
+      "productName": "HYD-VTS-100-24 IP67 L",
+      "productCode": "HYD-VTS-100-24 IP67 L",
+      "brand": "Hyundai Lighting",
+      "categories": [
+        "DRIVER",
+        "Drivers",
+        "Hyundai Lighting"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/04/HYD-VTS-100-24-IP67-L.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "HYD-VTS-100-24 IP67 L",
+          "power": "24W",
+          "inputVoltage": "220-240V",
+          "outputCurrent": "0-1A",
+          "outputVoltage": "24V",
+          "dimensions": "118*35*26mm"
+        }
+      ],
+      "specifications": {
+        "power": "24W",
+        "inputVoltage": "220-240V",
+        "outputVoltage": "24V",
+        "outputCurrent": "0-1A",
+        "dimensions": "118*35*26mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/hyd-vts-100-24-ip67-l/"
+    },
+    {
+      "id": "15363",
+      "slug": "ls-150-24-dali-2-li1",
+      "productName": "LS-150-24 DALI-2 LI1",
+      "productCode": "LS-150-24 DALI-2 LI1",
+      "brand": "Hyundai Lighting",
+      "categories": [
+        "DRIVER",
+        "Drivers",
+        "Hyundai Lighting"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/04/LS-150-24-DALI-2-LI1.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "LS-150-24 DALI-2 LI1",
+          "power": "150W",
+          "inputVoltage": "220-240V",
+          "outputCurrent": "0-6.25A",
+          "outputVoltage": "24V",
+          "dimensions": "318*38*30 mm"
+        }
+      ],
+      "specifications": {
+        "power": "150W",
+        "inputVoltage": "220-240V",
+        "outputVoltage": "24V",
+        "outputCurrent": "0-6.25A",
+        "dimensions": "318*38*30 mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/ls-150-24-dali-2-li1/"
+    },
+    {
+      "id": "15362",
+      "slug": "fls-60-1500-dali-2-ld1",
+      "productName": "FLS-60-1500 DALI-2 LD1",
+      "productCode": "FLS-60-1500 DALI-2 LD1",
+      "brand": "Hyundai Lighting",
+      "categories": [
+        "DRIVER",
+        "Drivers",
+        "Hyundai Lighting"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/04/FLS-60-1500-DALI-2-LD1.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "FLS-60-1500 DALI-2 LD1",
+          "power": "60W",
+          "inputVoltage": "220-240V",
+          "outputCurrent": "900-1500mA",
+          "outputVoltage": "2.5-49V",
+          "dimensions": "113*43*25 mm"
+        }
+      ],
+      "specifications": {
+        "power": "60W",
+        "inputVoltage": "220-240V",
+        "outputVoltage": "2.5-49V",
+        "outputCurrent": "900-1500mA",
+        "dimensions": "113*43*25 mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/fls-60-1500-dali-2-ld1/"
+    },
+    {
+      "id": "15361",
+      "slug": "fls-42-1050-dali-2-ld-pro",
+      "productName": "FLS-42-1050 DALI-2 LD PRO",
+      "productCode": "FLS-42-1050 DALI-2 LD PRO",
+      "brand": "Hyundai Lighting",
+      "categories": [
+        "DRIVER",
+        "Drivers",
+        "Hyundai Lighting"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/04/FLS-42-1050-DALI-2-LD-PRO.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "FLS-42-1050 DALI-2 LD PRO",
+          "power": "20W",
+          "inputVoltage": "220-240V",
+          "outputCurrent": "80-500mA",
+          "outputVoltage": "2.5-49V",
+          "dimensions": "88*40*22mm"
+        }
+      ],
+      "specifications": {
+        "power": "20W",
+        "inputVoltage": "220-240V",
+        "outputVoltage": "2.5-49V",
+        "outputCurrent": "80-500mA",
+        "dimensions": "88*40*22mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/fls-42-1050-dali-2-ld-pro/"
+    },
+    {
+      "id": "15360",
+      "slug": "fls-30-700-dali-2-ld-pro",
+      "productName": "FLS-30-700 DALI-2 LD PRO",
+      "productCode": "FLS-30-700 DALI-2 LD PRO",
+      "brand": "Hyundai Lighting",
+      "categories": [
+        "DRIVER",
+        "Drivers",
+        "Hyundai Lighting"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/02/FLS-30-700-DALI-2-LD-PRO.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "FLS-30-700 DALI-2 LD PRO",
+          "power": "30W",
+          "inputVoltage": "220-240V",
+          "outputCurrent": "150-700mA",
+          "outputVoltage": "2.5-49V",
+          "dimensions": "98*43*22mm"
+        }
+      ],
+      "specifications": {
+        "power": "30W",
+        "inputVoltage": "220-240V",
+        "outputVoltage": "2.5-49V",
+        "outputCurrent": "150-700mA",
+        "dimensions": "98*43*22mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/fls-30-700-dali-2-ld-pro/"
+    },
+    {
+      "id": "15343",
+      "slug": "fls-20-500-dali-2-ld-pro",
+      "productName": "FLS-20-500 DALI-2 LD PRO",
+      "productCode": "FLS-20-500 DALI-2 LD PRO",
+      "brand": "Hyundai Lighting",
+      "categories": [
+        "DRIVER",
+        "Drivers",
+        "Hyundai Lighting"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/04/FLS-20-500-DALI-2-LD-PRO.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "FLS-20-500 DALI-2 LD PRO",
+          "power": "20W",
+          "inputVoltage": "220-240V",
+          "outputCurrent": "80-500mA",
+          "outputVoltage": "2.5-49V",
+          "dimensions": "88*40*22 mm"
+        }
+      ],
+      "specifications": {
+        "power": "20W",
+        "inputVoltage": "220-240V",
+        "outputVoltage": "2.5-49V",
+        "outputCurrent": "80-500mA",
+        "dimensions": "88*40*22 mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/fls-20-500-dali-2-ld-pro/"
+    },
+    {
+      "id": "14800",
+      "slug": "hyd-st-052",
+      "productName": "HYD-ST-052",
+      "productCode": "HYD-ST-052",
+      "brand": "Hyundai Lighting",
+      "categories": [
+        "Hyundai Lighting",
+        "Strip Light",
+        "STRIP LIGHT"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/04/HYD-ST-052-1.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/04/HYD-ST-052-2.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/04/HYD-ST-052-3.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "HYD-ST-052",
+          "power": "12W/m",
+          "voltage": "24V",
+          "colorTemperature": "4000K",
+          "luminousEfficiency": "630 lm/M",
+          "dimensions": "10 m/Roll"
+        }
+      ],
+      "specifications": {
+        "power": "12W/m",
+        "voltage": "24V",
+        "colorTemperature": "4000K",
+        "luminousEfficiency": "630 lm/M",
+        "dimensions": "10 m/Roll"
+      },
+      "sourceUrl": "https://caymelighting.com/product/hyd-st-052/"
+    },
+    {
+      "id": "13845",
+      "slug": "hyd-s1-003",
+      "productName": "HYD-S1-003",
+      "productCode": "HYD-S1-003",
+      "brand": "Hyundai Lighting",
+      "categories": [
+        "Hyundai Lighting",
+        "Track Socket",
+        "TRACK SOCKET"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/02/2.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/02/Mobile-track-socket.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/02/Mobile-track-socket-3.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/02/Mobile-track-socket-2.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/02/Mobile-track-socket-4.svg"
+      ],
+      "variants": [],
+      "specifications": {},
+      "sourceUrl": "https://caymelighting.com/product/hyd-s1-003/"
+    },
+    {
+      "id": "13842",
+      "slug": "hyd-s1-005",
+      "productName": "HYD-S1-005",
+      "productCode": "HYD-S1-005",
+      "brand": "Hyundai Lighting",
+      "categories": [
+        "Hyundai Lighting",
+        "Track Socket",
+        "TRACK SOCKET"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/02/3.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/02/Mobile-track-socket.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/02/Mobile-track-socket-3.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/02/Mobile-track-socket-2.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/02/Mobile-track-socket-4.svg"
+      ],
+      "variants": [],
+      "specifications": {},
+      "sourceUrl": "https://caymelighting.com/product/hyd-s1-005/"
+    },
+    {
+      "id": "16550",
+      "slug": "lv-st-613-320d",
+      "productName": "LV-ST.613.320D",
+      "productCode": "LV-ST.613.320D",
+      "brand": "Luceva",
+      "categories": [
+        "Luceva",
+        "Strip Light",
+        "STRIP LIGHT"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/10/LV-ST.613.320D-2.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/10/LV-ST.613.320D.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/10/LV-ST.613.320D-3.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/10/LV-ST.613.320D-4.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "LV-ST.613.320D",
+          "power": "4.8w/m",
+          "voltage": "24V",
+          "colorTemperature": "3000K",
+          "cri": "R a90",
+          "luminousOutput": "8 0lm/w",
+          "tapeLength": "10 m/Roll"
+        }
+      ],
+      "specifications": {
+        "power": "4.8w/m",
+        "voltage": "24V",
+        "colorTemperature": "3000K",
+        "luminousOutput": "8 0lm/w",
+        "cri": "R a90",
+        "tapeLength": "10 m/Roll"
+      },
+      "sourceUrl": "https://caymelighting.com/product/lv-st-613-320d/"
+    },
+    {
+      "id": "16532",
+      "slug": "lv-st-612-320d",
+      "productName": "LV-ST.612.320D",
+      "productCode": "LV-ST.612.320D",
+      "brand": "Luceva",
+      "categories": [
+        "Luceva",
+        "Strip Light",
+        "STRIP LIGHT"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/10/LV-ST.612.320D-2.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/10/LV-ST.612.320D.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/10/LV-ST.612.320D-4.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/10/LV-ST.612.320D-3.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "LV-ST.612.320D",
+          "power": "4.8w/m",
+          "voltage": "24V",
+          "colorTemperature": "3000K/4000K",
+          "cri": "R a90",
+          "luminousOutput": "8 0lm/w",
+          "tapeLength": "10 m/Roll"
+        }
+      ],
+      "specifications": {
+        "power": "4.8w/m",
+        "voltage": "24V",
+        "colorTemperature": "3000K/4000K",
+        "luminousOutput": "8 0lm/w",
+        "cri": "R a90",
+        "tapeLength": "10 m/Roll"
+      },
+      "sourceUrl": "https://caymelighting.com/product/lv-st-612-320d/"
+    },
+    {
+      "id": "16338",
+      "slug": "lv-5070ms",
+      "productName": "LV-5070MS",
+      "productCode": "LV-5070MS",
+      "brand": "Luceva",
+      "categories": [
+        "Commercial Light",
+        "LINEAR LIGHT",
+        "Luceva"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/08/LV-5070MS.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/08/LV-5070MS-2.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/08/LV-5070MS-3.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/08/LV-5070MS-4.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/08/LV-5070MS-5.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "LV-5070MS",
+          "power": "40W",
+          "voltage": "220-240V",
+          "colorTemperature": "3000K/4500K/6000K",
+          "luminousEfficiency": "120 lm/w",
+          "dimensions": "1200x50x70 mm"
+        }
+      ],
+      "specifications": {
+        "power": "40W",
+        "voltage": "220-240V",
+        "colorTemperature": "3000K/4500K/6000K",
+        "luminousEfficiency": "120 lm/w",
+        "dimensions": "1200x50x70 mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/lv-5070ms/"
+    },
+    {
+      "id": "16147",
+      "slug": "mts-acc10353-1500mm-mts-acc10354",
+      "productName": "MTS-ACC10353 \u2013 1500mm / MTS-ACC10354",
+      "productCode": "MTS-ACC10353 \u2013 1500mm / MTS-ACC10354",
+      "brand": "Luceva",
+      "categories": [
+        "Luceva",
+        "MAGNETIC TRACK LIGHT",
+        "Track Light"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-ACC10353-1500mm.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "MTS-ACC10353 \u2013 1500mm / MTS-ACC10354",
+          "material": "Copper & Aluminum & Iron",
+          "wireMaterial": "Stainless Steel"
+        }
+      ],
+      "specifications": {
+        "material": "Copper & Aluminum & Iron"
+      },
+      "sourceUrl": "https://caymelighting.com/product/mts-acc10353-1500mm-mts-acc10354/"
+    },
+    {
+      "id": "16146",
+      "slug": "mts-acc10352",
+      "productName": "MTS-ACC10352",
+      "productCode": "MTS-ACC10352",
+      "brand": "Luceva",
+      "categories": [
+        "Luceva",
+        "MAGNETIC TRACK LIGHT",
+        "Track Light"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-ACC10352.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "MTS-ACC10352",
+          "material": "Copper & Aluminum & Iron",
+          "housingSize": "60x60x24 mm"
+        }
+      ],
+      "specifications": {
+        "housingSize": "60x60x24 mm",
+        "material": "Copper & Aluminum & Iron"
+      },
+      "sourceUrl": "https://caymelighting.com/product/mts-acc10352/"
+    },
+    {
+      "id": "16145",
+      "slug": "mts-acc10351",
+      "productName": "MTS-ACC10351",
+      "productCode": "MTS-ACC10351",
+      "brand": "Luceva",
+      "categories": [
+        "Luceva",
+        "MAGNETIC TRACK LIGHT",
+        "Track Light"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-ACC10351.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "MTS-ACC10351",
+          "material": "Copper & Aluminum & Iron",
+          "housingSize": "17x16x6 mm"
+        }
+      ],
+      "specifications": {
+        "housingSize": "17x16x6 mm",
+        "material": "Copper & Aluminum & Iron"
+      },
+      "sourceUrl": "https://caymelighting.com/product/mts-acc10351/"
+    },
+    {
+      "id": "16140",
+      "slug": "mts-r10327",
+      "productName": "MTS-R10327",
+      "productCode": "MTS-R10327",
+      "brand": "Luceva",
+      "categories": [
+        "Luceva",
+        "MAGNETIC TRACK LIGHT",
+        "Track Light"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-R10327.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "MTS-R10327",
+          "material": "Copper & Aluminum & Iron",
+          "housingSize": "60x60x24 mm"
+        }
+      ],
+      "specifications": {
+        "housingSize": "60x60x24 mm",
+        "material": "Copper & Aluminum & Iron"
+      },
+      "sourceUrl": "https://caymelighting.com/product/mts-r10327/"
+    },
+    {
+      "id": "16139",
+      "slug": "mts-r10317",
+      "productName": "MTS-R10317",
+      "productCode": "MTS-R10317",
+      "brand": "Luceva",
+      "categories": [
+        "Luceva",
+        "MAGNETIC TRACK LIGHT",
+        "Track Light"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-R10317.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "MTS-R10317",
+          "material": "Copper & Aluminum & Iron",
+          "housingSize": "60x60x24 mm"
+        }
+      ],
+      "specifications": {
+        "housingSize": "60x60x24 mm",
+        "material": "Copper & Aluminum & Iron"
+      },
+      "sourceUrl": "https://caymelighting.com/product/mts-r10317/"
+    },
+    {
+      "id": "16138",
+      "slug": "mts-r10322",
+      "productName": "MTS-R10322",
+      "productCode": "MTS-R10322",
+      "brand": "Luceva",
+      "categories": [
+        "Luceva",
+        "MAGNETIC TRACK LIGHT",
+        "Track Light"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-R10322.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "MTS-R10322",
+          "material": "Copper & Aluminum & Iron",
+          "housingSize": "2000x42x24 mm"
+        }
+      ],
+      "specifications": {
+        "housingSize": "2000x42x24 mm",
+        "material": "Copper & Aluminum & Iron"
+      },
+      "sourceUrl": "https://caymelighting.com/product/mts-r10322/"
+    },
+    {
+      "id": "16137",
+      "slug": "mts-r10312",
+      "productName": "MTS-R10312",
+      "productCode": "MTS-R10312",
+      "brand": "Luceva",
+      "categories": [
+        "Luceva",
+        "MAGNETIC TRACK LIGHT",
+        "Track Light"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-R10312.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "MTS-R10312",
+          "material": "Copper & Aluminum & Iron",
+          "housingSize": "2000x42x24 mm"
+        }
+      ],
+      "specifications": {
+        "housingSize": "2000x42x24 mm",
+        "material": "Copper & Aluminum & Iron"
+      },
+      "sourceUrl": "https://caymelighting.com/product/mts-r10312/"
+    },
+    {
+      "id": "16135",
+      "slug": "mts-r10302",
+      "productName": "MTS-R10302",
+      "productCode": "MTS-R10302",
+      "brand": "Luceva",
+      "categories": [
+        "Luceva",
+        "MAGNETIC TRACK LIGHT",
+        "Track Light"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-R10302.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "MTS-R10302",
+          "material": "Copper & Aluminum & Iron",
+          "housingSize": "2000x13x24 mm"
+        }
+      ],
+      "specifications": {
+        "housingSize": "2000x13x24 mm",
+        "material": "Copper & Aluminum & Iron"
+      },
+      "sourceUrl": "https://caymelighting.com/product/mts-r10302/"
+    },
+    {
+      "id": "16132",
+      "slug": "mts-sw10359",
+      "productName": "MTS-SW10359",
+      "productCode": "MTS-SW10359",
+      "brand": "Luceva",
+      "categories": [
+        "Luceva",
+        "MAGNETIC TRACK LIGHT",
+        "Track Light"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-SW10359.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "MTS-SW10359",
+          "power": "2*AAA Battery",
+          "signalRange": "10 m",
+          "operatingTemperature": "-10\uff5e40\u2103",
+          "dimensions": "70\u00d762 mm"
+        }
+      ],
+      "specifications": {
+        "power": "2*AAA Battery",
+        "dimensions": "70\u00d762 mm",
+        "operatingTemperature": "-10\uff5e40\u2103"
+      },
+      "sourceUrl": "https://caymelighting.com/product/mts-sw10359/"
+    },
+    {
+      "id": "16131",
+      "slug": "mts-pw10357-8",
+      "productName": "MTS-PW10357/8",
+      "productCode": "MTS-PW10357/8",
+      "brand": "Luceva",
+      "categories": [
+        "Luceva",
+        "MAGNETIC TRACK LIGHT",
+        "Track Light"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-PW10357_8.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "MTS-PW10357/8",
+          "power": "100w/200w 2.4G",
+          "inputVoltage": "180-265Vac",
+          "outputVoltage": "DC48V",
+          "outputCurrent": "2.1A",
+          "dimensions": "150x48x25 mm"
+        }
+      ],
+      "specifications": {
+        "power": "100w/200w 2.4G",
+        "inputVoltage": "180-265Vac",
+        "outputVoltage": "DC48V",
+        "outputCurrent": "2.1A",
+        "dimensions": "150x48x25 mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/mts-pw10357-8/"
+    },
+    {
+      "id": "16127",
+      "slug": "mts-pw10355-6",
+      "productName": "MTS-PW10355/6",
+      "productCode": "MTS-PW10355/6",
+      "brand": "Luceva",
+      "categories": [
+        "Luceva",
+        "MAGNETIC TRACK LIGHT",
+        "Track Light"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-PW10355_6.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "MTS-PW10355/6",
+          "power": "100w/200w 2.4G",
+          "inputVoltage": "180-265Vac",
+          "outputVoltage": "DC48V",
+          "outputCurrent": "2.1A",
+          "dimensions": "85\u00d725 mm"
+        }
+      ],
+      "specifications": {
+        "power": "100w/200w 2.4G",
+        "inputVoltage": "180-265Vac",
+        "outputVoltage": "DC48V",
+        "outputCurrent": "2.1A",
+        "dimensions": "85\u00d725 mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/mts-pw10355-6/"
+    },
+    {
+      "id": "16117",
+      "slug": "mts-ad10401",
+      "productName": "MTS-AD10401",
+      "productCode": "MTS-AD10401",
+      "brand": "Luceva",
+      "categories": [
+        "Commercial Light",
+        "Luceva",
+        "MAGNETIC TRACK LIGHT",
+        "Track Light"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-AD10401.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-AD10401-2.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-AD10401-3.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-TR10411-4.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "MTS-AD10401",
+          "power": "10W",
+          "voltage": "48V",
+          "speakerDrive": "57 mm",
+          "ledColour": "Blue",
+          "dimensions": "65\u00d775 mm"
+        }
+      ],
+      "specifications": {
+        "power": "10W",
+        "voltage": "48V",
+        "ledColour": "Blue",
+        "dimensions": "65\u00d775 mm"
+      },
+      "sourceUrl": "https://caymelighting.com/product/mts-ad10401/"
+    },
+    {
+      "id": "16116",
+      "slug": "mts-fd10461",
+      "productName": "MTS-FD10461",
+      "productCode": "MTS-FD10461",
+      "brand": "Luceva",
+      "categories": [
+        "Commercial Light",
+        "Luceva",
+        "MAGNETIC TRACK LIGHT",
+        "Track Light"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-FD10461.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-FD10461-3.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-FD10461-2.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-TR10412_3-2.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "MTS-FD10461",
+          "power": "9W",
+          "voltage": "48V",
+          "beamAngle": "105\u00b0",
+          "cri": ">90",
+          "colorTemperature": "3000K/4000K",
+          "dimensions": "290x68x10 mm"
+        }
+      ],
+      "specifications": {
+        "power": "9W",
+        "voltage": "48V",
+        "colorTemperature": "3000K/4000K",
+        "dimensions": "290x68x10 mm",
+        "beamAngle": "105\u00b0",
+        "cri": ">90"
+      },
+      "sourceUrl": "https://caymelighting.com/product/mts-fd10461/"
+    },
+    {
+      "id": "16115",
+      "slug": "mts-gl10441-2",
+      "productName": "MTS-GL10441/2",
+      "productCode": "MTS-GL10441/2",
+      "brand": "Luceva",
+      "categories": [
+        "Commercial Light",
+        "Luceva",
+        "MAGNETIC TRACK LIGHT",
+        "Track Light"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-GL10441_2.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-GL10441_2-3.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-GL10441_2-4.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-TR10412_3-2.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "MTS-GL10441",
+          "power": "9W",
+          "voltage": "48V",
+          "beamAngle": "60\u00b0",
+          "cri": ">80",
+          "colorTemperature": "3000K/4000K",
+          "dimensions": "290x19x10 mm"
+        },
+        {
+          "itemNo": "MTS-GL10442",
+          "power": "18W",
+          "voltage": "48V",
+          "beamAngle": "60\u00b0",
+          "cri": ">80",
+          "colorTemperature": "3000K/4000K",
+          "dimensions": "570x19x10 mm"
+        }
+      ],
+      "specifications": {
+        "power": "9W",
+        "voltage": "48V",
+        "colorTemperature": "3000K/4000K",
+        "dimensions": "290x19x10 mm",
+        "beamAngle": "60\u00b0",
+        "cri": ">80"
+      },
+      "sourceUrl": "https://caymelighting.com/product/mts-gl10441-2/"
+    },
+    {
+      "id": "16114",
+      "slug": "mts-gl10451-2",
+      "productName": "MTS-GL10451/2",
+      "productCode": "MTS-GL10451/2",
+      "brand": "Luceva",
+      "categories": [
+        "Commercial Light",
+        "Luceva",
+        "MAGNETIC TRACK LIGHT",
+        "Track Light"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-GL10451_2.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-GL10451_2-2.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-GL10451_2-3.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-GL10451_2-4.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-TR10412_3-2.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "MTS-GL10451",
+          "power": "4.5W",
+          "voltage": "48V",
+          "beamAngle": "60\u00b0",
+          "cri": ">90",
+          "colorTemperature": "3000K/4000K",
+          "dimensions": "152x34x15 mm"
+        },
+        {
+          "itemNo": "MTS-GL10452",
+          "power": "9W",
+          "voltage": "48V",
+          "beamAngle": "60\u00b0",
+          "cri": ">90",
+          "colorTemperature": "3000K/4000K",
+          "dimensions": "292x34x15 mm"
+        }
+      ],
+      "specifications": {
+        "power": "4.5W",
+        "voltage": "48V",
+        "colorTemperature": "3000K/4000K",
+        "dimensions": "152x34x15 mm",
+        "beamAngle": "60\u00b0",
+        "cri": ">90"
+      },
+      "sourceUrl": "https://caymelighting.com/product/mts-gl10451-2/"
+    },
+    {
+      "id": "16113",
+      "slug": "mts-fl10431-2",
+      "productName": "MTS-FL10431/2",
+      "productCode": "MTS-FL10431/2",
+      "brand": "Luceva",
+      "categories": [
+        "Commercial Light",
+        "Luceva",
+        "MAGNETIC TRACK LIGHT",
+        "Track Light"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-FL10431_2.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-FL10431_2-2.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-FL10431_2-3.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-TR10412_3-2.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-TR10411-4.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "MTS-FL10431",
+          "power": "9W",
+          "voltage": "48V",
+          "beamAngle": "105\u00b0",
+          "cri": ">90",
+          "colorTemperature": "3000K/4000K",
+          "dimensions": "292x34x15 mm"
+        },
+        {
+          "itemNo": "MTS-FL10432",
+          "power": "18W",
+          "voltage": "48V",
+          "beamAngle": "105\u00b0",
+          "cri": ">90",
+          "colorTemperature": "3000K/4000K",
+          "dimensions": "572x34x15 mm"
+        }
+      ],
+      "specifications": {
+        "power": "9W",
+        "voltage": "48V",
+        "colorTemperature": "3000K/4000K",
+        "dimensions": "292x34x15 mm",
+        "beamAngle": "105\u00b0",
+        "cri": ">90"
+      },
+      "sourceUrl": "https://caymelighting.com/product/mts-fl10431-2/"
+    },
+    {
+      "id": "16112",
+      "slug": "mts-fl10421-2-3",
+      "productName": "MTS-FL10421/2/3",
+      "productCode": "MTS-FL10421/2/3",
+      "brand": "Luceva",
+      "categories": [
+        "Commercial Light",
+        "Luceva",
+        "MAGNETIC TRACK LIGHT",
+        "Track Light"
+      ],
+      "description": "",
+      "images": [
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-FL10421_2_3.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-FL10421_2_3-2.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-FL10421_2_3-3.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-TR10412_3-2.svg",
+        "https://caymelighting.com/wp-content/uploads/2026/06/MTS-TR10411-4.svg"
+      ],
+      "variants": [
+        {
+          "itemNo": "MTS-FL10421",
+          "power": "9W",
+          "voltage": "48V",
+          "beamAngle": "105\u00b0",
+          "cri": ">90",
+          "colorTemperature": "3000K/4000K",
+          "dimensions": "290x19x10 mm"
+        },
+        {
+          "itemNo": "MTS-FL10422",
+          "power": "18W",
+          "voltage": "48V",
+          "beamAngle": "105\u00b0",
+          "cri": ">90",
+          "colorTemperature": "3000K/4000K",
+          "dimensions": "570x19x10 mm"
+        },
+        {
+          "itemNo": "MTS-FL10423",
+          "power": "27W",
+          "voltage": "48V",
+          "beamAngle": "105\u00b0",
+          "cri": ">90",
+          "colorTemperature": "3000K/4000K",
+          "dimensions": "850x19x10 mm"
+        }
+      ],
+      "specifications": {
+        "power": "9W",
+        "voltage": "48V",
+        "colorTemperature": "3000K/4000K",
+        "dimensions": "290x19x10 mm",
+        "beamAngle": "105\u00b0",
+        "cri": ">90"
+      },
+      "sourceUrl": "https://caymelighting.com/product/mts-fl10421-2-3/"
+    }
+  ],
+  "projects": [
+    {
+      "id": 16502,
+      "slug": "japs-office-project-dubai",
+      "title": "JAPS Office Project, Dubai",
+      "image": "https://caymelighting.com/wp-content/uploads/2026/10/cover-image.webp",
+      "categories": [
+        "Projects"
+      ],
+      "excerpt": "Hyundai Project One",
+      "link": "https://caymelighting.com/japs-office-project-dubai/"
+    },
+    {
+      "id": 16386,
+      "slug": "polo-home-villa-dubai",
+      "title": "Polo Home Villa, Dubai",
+      "image": "https://caymelighting.com/wp-content/uploads/2026/09/polo-villa-cover-image.webp",
+      "categories": [
+        "Projects"
+      ],
+      "excerpt": "Hyundai Project One",
+      "link": "https://caymelighting.com/polo-home-villa-dubai/"
+    },
+    {
+      "id": 16309,
+      "slug": "al-quoz-office-dubai",
+      "title": "Al Quoz Office, Dubai",
+      "image": "https://caymelighting.com/wp-content/uploads/2026/08/Al-Quoz-Cover-image-02.webp",
+      "categories": [
+        "Projects"
+      ],
+      "excerpt": "Hyundai Project One",
+      "link": "https://caymelighting.com/al-quoz-office-dubai/"
+    },
+    {
+      "id": 15432,
+      "slug": "al-bustan-tower-office-project-abu-dhabi",
+      "title": "Al Bustan Tower Office Project, Abu Dhabi",
+      "image": "https://caymelighting.com/wp-content/uploads/2026/05/Al-Bustan-Office-Tower-COVER.png",
+      "categories": [
+        "Projects"
+      ],
+      "excerpt": "Hyundai Project One",
+      "link": "https://caymelighting.com/al-bustan-tower-office-project-abu-dhabi/"
+    },
+    {
+      "id": 14782,
+      "slug": "rida-middle-east-office-umm-al-quwain-2",
+      "title": "Villa Garden Project, Dubai Hills",
+      "image": "https://caymelighting.com/wp-content/uploads/2026/04/web-image-Dubai-hills.webp",
+      "categories": [
+        "Projects"
+      ],
+      "excerpt": "Hyundai Project One",
+      "link": "https://caymelighting.com/rida-middle-east-office-umm-al-quwain-2/"
+    },
+    {
+      "id": 14651,
+      "slug": "rida-middle-east-office-umm-al-quwain",
+      "title": "Office Project, Umm Al Quwain",
+      "image": "https://caymelighting.com/wp-content/uploads/2026/03/web-image-RIDA.png",
+      "categories": [
+        "Projects"
+      ],
+      "excerpt": "Hyundai Project One",
+      "link": "https://caymelighting.com/rida-middle-east-office-umm-al-quwain/"
+    },
+    {
+      "id": 13385,
+      "slug": "nakheel-mall-dubai",
+      "title": "Nakheel Mall, Dubai",
+      "image": "https://caymelighting.com/wp-content/uploads/2026/01/Nakeel-mall.webp",
+      "categories": [
+        "Projects"
+      ],
+      "excerpt": "Hyundai Project One",
+      "link": "https://caymelighting.com/nakheel-mall-dubai/"
+    },
+    {
+      "id": 13376,
+      "slug": "dikochi-brands-factory-outlet-dubai",
+      "title": "Dikochi Factory Outlet, Dubai",
+      "image": "https://caymelighting.com/wp-content/uploads/2026/01/Dichochi.webp",
+      "categories": [
+        "Projects"
+      ],
+      "excerpt": "Hyundai Project One",
+      "link": "https://caymelighting.com/dikochi-brands-factory-outlet-dubai/"
+    },
+    {
+      "id": 13330,
+      "slug": "emirates-airline-chalet-dwc",
+      "title": "Emirates Airline Chalet, DWC",
+      "image": "https://caymelighting.com/wp-content/uploads/2026/01/emirates.webp",
+      "categories": [
+        "Projects"
+      ],
+      "excerpt": "Hyundai Project One",
+      "link": "https://caymelighting.com/emirates-airline-chalet-dwc/"
+    },
+    {
+      "id": 13292,
+      "slug": "khalifa-university-abu-dhabi",
+      "title": "Khalifa University, Abu Dhabi",
+      "image": "https://caymelighting.com/wp-content/uploads/2026/01/khalifa-Uni.webp",
+      "categories": [
+        "Projects"
+      ],
+      "excerpt": "Hyundai Project One",
+      "link": "https://caymelighting.com/khalifa-university-abu-dhabi/"
+    },
+    {
+      "id": 13187,
+      "slug": "test-01",
+      "title": "O-14 Tower, Business Bay, Dubai",
+      "image": "https://caymelighting.com/wp-content/uploads/2026/01/o14-tower.webp",
+      "categories": [
+        "Projects"
+      ],
+      "excerpt": "Hyundai Project One",
+      "link": "https://caymelighting.com/test-01/"
+    }
+  ]
+}
