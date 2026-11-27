@@ -1,10 +1,10 @@
-import AsyncStorage from '@react-native-async-storage/async-storage';
-import { Platform } from 'react-native';
 import { SEED_PRODUCTS } from '@/data/catalog';
 import { BrandName, CatalogProduct, ProductVariant } from '@/types/product';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import { Platform } from 'react-native';
 
 const CACHE_KEY = '@cayman_catalogue_cache_v1';
-const BASE_URL = 'https://caymelighting.com/wp-json/wc/store/v1';
+const BASE_URL = process.env.EXPO_PUBLIC_API_URL;
 
 interface RawWooProduct {
   id: number;
@@ -162,7 +162,7 @@ export async function syncLiveCatalogue(): Promise<{
   try {
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), 8000);
-    const res = await fetch(`${BASE_URL}/products?per_page=40&page=1`, {
+    const res = await fetch(`${BASE_URL}/api/products?per_page=40&page=1`, {
       signal: controller.signal,
     });
     clearTimeout(timer);
