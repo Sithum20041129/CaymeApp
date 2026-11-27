@@ -7,19 +7,22 @@ import React, {
   useMemo,
   useState,
 } from 'react';
-import { SEED_PRODUCTS } from '@/data/catalog';
+import { MAIN_CATEGORIES, SEED_PRODUCTS } from '@/data/catalog';
 import {
+  fetchCategoryImages,
   loadCachedCatalogue,
   syncLiveCatalogue,
 } from '@/services/catalogService';
 import {
   CatalogProduct,
+  CategoryItem,
   EMPTY_FILTERS,
   EnquiryItem,
   FilterState,
   ProductVariant,
   SortOption,
 } from '@/types/product';
+import { productMatchesCategory } from '@/utils/filterProducts';
 
 const WISHLIST_KEY = '@cayman_wishlist_v1';
 const COMPARE_KEY = '@cayman_compare_v1';
@@ -28,6 +31,7 @@ const RECENT_SEARCH_KEY = '@cayman_recent_searches_v1';
 
 interface AppStateContextValue {
   products: CatalogProduct[];
+  categories: CategoryItem[];
   isLoadingCatalogue: boolean;
   isOfflineFallback: boolean;
   refreshCatalogue: () => Promise<void>;
@@ -70,6 +74,7 @@ const AppStateContext = createContext<AppStateContextValue | null>(null);
 
 export function AppStateProvider({ children }: { children: React.ReactNode }) {
   const [products, setProducts] = useState<CatalogProduct[]>(SEED_PRODUCTS);
+  const [categoryImageMap, setCategoryImageMap] = useState<Record<string, string>>({});
   const [isLoadingCatalogue, setIsLoadingCatalogue] = useState(true);
   const [isOfflineFallback, setIsOfflineFallback] = useState(false);
 
@@ -107,10 +112,16 @@ export function AppStateProvider({ children }: { children: React.ReactNode }) {
         if (mounted) setIsLoadingCatalogue(false);
       }
 
-      const synced = await syncLiveCatalogue();
+      const [synced, liveCategoryImages] = await Promise.all([
+        syncLiveCatalogue(),
+        fetchCategoryImages(),
+      ]);
       if (mounted) {
         setProducts(synced.products);
         setIsOfflineFallback(!synced.fromNetwork);
+        if (Object.keys(liveCategoryImages).length > 0) {
+          setCategoryImageMap(liveCategoryImages);
+        }
       }
     }
 
@@ -122,11 +133,32 @@ export function AppStateProvider({ children }: { children: React.ReactNode }) {
 
   const refreshCatalogue = useCallback(async () => {
     setIsLoadingCatalogue(true);
-    const synced = await syncLiveCatalogue();
+    const [synced, liveCategoryImages] = await Promise.all([
+      syncLiveCatalogue(),
+      fetchCategoryImages(),
+    ]);
     setProducts(synced.products);
     setIsOfflineFallback(!synced.fromNetwork);
+    if (Object.keys(liveCategoryImages).length > 0) {
+      setCategoryImageMap(liveCategoryImages);
+    }
     setIsLoadingCatalogue(false);
   }, []);
+
+  const categories = useMemo<CategoryItem[]>(
+    () =>
+      MAIN_CATEGORIES.map((cat) => {
+        const fromApi = categoryImageMap[cat.slug];
+        const fromProduct = products.find(
+          (p) => productMatchesCategory(p, cat.name) && p.images[0]
+        )?.images[0];
+        return {
+          ...cat,
+          imageUrl: fromApi || cat.imageUrl || fromProduct,
+        };
+      }),
+    [categoryImageMap, products]
+  );
 
   const toggleWishlist = useCallback((productId: string) => {
     setWishlistIds((prev) => {
@@ -297,6 +329,7 @@ export function AppStateProvider({ children }: { children: React.ReactNode }) {
   const value = useMemo<AppStateContextValue>(
     () => ({
       products,
+      categories,
       isLoadingCatalogue,
       isOfflineFallback,
       refreshCatalogue,
@@ -327,6 +360,7 @@ export function AppStateProvider({ children }: { children: React.ReactNode }) {
     }),
     [
       products,
+      categories,
       isLoadingCatalogue,
       isOfflineFallback,
       refreshCatalogue,

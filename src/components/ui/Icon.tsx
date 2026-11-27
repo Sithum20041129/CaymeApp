@@ -35,8 +35,8 @@ const SYMBOL_MAP: Record<
 > = {
   home: { ios: 'house', android: 'home', fallback: '⌂' },
   grid: { ios: 'square.grid.2x2', android: 'grid_view', fallback: '⊞' },
-  heart: { ios: 'heart', android: 'favorite_border', fallback: '♡' },
-  'heart.fill': { ios: 'heart.fill', android: 'favorite', fallback: '♥' },
+  heart: { ios: 'heart', android: 'favorite_border', fallback: '♡\uFE0E' },
+  'heart.fill': { ios: 'heart.fill', android: 'favorite', fallback: '♥\uFE0E' },
   projects: { ios: 'photo.on.rectangle', android: 'collections', fallback: '◫' },
   contact: { ios: 'bubble.left.and.bubble.right', android: 'chat', fallback: '✉' },
   search: { ios: 'magnifyingglass', android: 'search', fallback: '⌕' },
@@ -73,10 +73,9 @@ export function Icon({
 }: IconProps) {
   const mapped = SYMBOL_MAP[name];
 
-  // On web, SymbolView tintColor on MaterialSymbols does not reliably update
-  // dynamically (especially for filled vs outline heart), so render a crisp
-  // vector-styled glyph for heart states on web.
-  if (Platform.OS === 'web' && (name === 'heart' || name === 'heart.fill')) {
+  // On Android and web, Material Symbols renders `favorite` as an outline
+  // by default, so render a monochrome text heart glyph for crisp filled vs outline states.
+  if (Platform.OS !== 'ios' && (name === 'heart' || name === 'heart.fill')) {
     return (
       <View
         style={{

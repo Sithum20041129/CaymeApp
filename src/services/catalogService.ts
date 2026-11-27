@@ -189,3 +189,39 @@ export async function syncLiveCatalogue(): Promise<{
     return { products: cached, fromNetwork: false };
   }
 }
+
+interface RawWooCategory {
+  slug?: string;
+  image?: { src?: string } | null;
+}
+
+/** Fetch category image URLs keyed by category slug from cayme-api. */
+export async function fetchCategoryImages(): Promise<Record<string, string>> {
+  if (!BASE_URL || Platform.OS === 'web') {
+    return {};
+  }
+
+  try {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 5000);
+    const res = await fetch(`${BASE_URL}/api/categories`, {
+      signal: controller.signal,
+    });
+    clearTimeout(timer);
+
+    if (!res.ok) {
+      return {};
+    }
+
+    const rawCategories = (await res.json()) as RawWooCategory[];
+    const imageMap: Record<string, string> = {};
+    for (const cat of rawCategories) {
+      if (cat.slug && cat.image?.src) {
+        imageMap[cat.slug] = cat.image.src;
+      }
+    }
+    return imageMap;
+  } catch {
+    return {};
+  }
+}

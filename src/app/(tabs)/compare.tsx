@@ -21,7 +21,13 @@ const COL_WIDTH = 156;
 const LABEL_WIDTH = 120;
 
 export default function CompareScreen() {
-  const { compareProducts, removeCompare, clearCompare } = useAppState();
+  const {
+    compareProducts,
+    removeCompare,
+    clearCompare,
+    isWishlisted,
+    toggleWishlist,
+  } = useAppState();
 
   const comparableKeys = useMemo(() => {
     const keys = Object.keys(SPEC_LABELS) as (keyof ProductSpecifications)[];
@@ -95,12 +101,38 @@ export default function CompareScreen() {
                       </Text>
                     </Pressable>
 
-                    <Pressable
-                      onPress={() => openProductEnquiry(p, p.variants[0], 1)}
-                      style={styles.enquireBtn}
-                    >
-                      <Text style={styles.enquireText}>Enquire</Text>
-                    </Pressable>
+                    <View style={styles.actionsRow}>
+                      <Pressable
+                        onPress={() => openProductEnquiry(p, p.variants[0], 1)}
+                        style={styles.enquireBtn}
+                      >
+                        <Text style={styles.enquireText}>Enquire</Text>
+                      </Pressable>
+                      <Pressable
+                        onPress={() => toggleWishlist(p.id)}
+                        hitSlop={6}
+                        accessibilityRole="button"
+                        accessibilityLabel={
+                          isWishlisted(p.id)
+                            ? `Remove ${p.productCode} from wishlist`
+                            : `Add ${p.productCode} to wishlist`
+                        }
+                        style={[
+                          styles.wishlistBtn,
+                          isWishlisted(p.id) && styles.wishlistBtnActive,
+                        ]}
+                      >
+                        <Icon
+                          name={isWishlisted(p.id) ? 'heart.fill' : 'heart'}
+                          size={16}
+                          color={
+                            isWishlisted(p.id)
+                              ? Palette.buttonPrimary
+                              : Palette.textSecondary
+                          }
+                        />
+                      </Pressable>
+                    </View>
                   </View>
                 ))}
               </View>
@@ -199,15 +231,35 @@ const styles = StyleSheet.create({
     ...Typography.bodyMedium,
     color: Palette.textPrimary,
   },
+  actionsRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+  },
   enquireBtn: {
+    flex: 1,
     backgroundColor: Palette.buttonPrimary,
     borderRadius: Radii.xs,
     paddingVertical: 7,
     alignItems: 'center',
+    justifyContent: 'center',
   },
   enquireText: {
     ...Typography.captionMedium,
     color: Palette.buttonText,
+  },
+  wishlistBtn: {
+    width: 34,
+    height: 32,
+    borderRadius: Radii.xs,
+    borderWidth: 1,
+    borderColor: Palette.border,
+    backgroundColor: Palette.background,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  wishlistBtnActive: {
+    borderColor: Palette.buttonPrimary,
   },
   specRow: {
     flexDirection: 'row',

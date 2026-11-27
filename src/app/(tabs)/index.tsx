@@ -16,7 +16,6 @@ import { COMPANY_CONFIG } from '@/config/company';
 import { useAppState } from '@/context/AppStateContext';
 import {
   BRANDS,
-  MAIN_CATEGORIES,
   SEED_PROJECTS,
 } from '@/data/catalog';
 
@@ -70,6 +69,7 @@ export default function HomeScreen() {
   } = useResponsive();
   const {
     products,
+    categories,
     wishlistIds,
     isWishlisted,
     toggleWishlist,
@@ -202,7 +202,7 @@ export default function HomeScreen() {
               showsHorizontalScrollIndicator={false}
               contentContainerStyle={styles.horizontalList}
             >
-              {MAIN_CATEGORIES.map((cat) => (
+              {categories.map((cat) => (
                 <Pressable
                   key={cat.slug}
                   onPress={() =>

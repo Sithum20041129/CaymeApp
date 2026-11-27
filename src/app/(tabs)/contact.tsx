@@ -1,6 +1,10 @@
+import { PrimaryButton } from '@/components/ui/Buttons';
+import { Icon } from '@/components/ui/Icon';
+import { COMPANY_CONFIG } from '@/config/company';
+import { Palette, Radii, Spacing, Typography } from '@/theme/tokens';
+import { openGeneralEnquiry } from '@/utils/whatsapp';
 import { router } from 'expo-router';
 import * as WebBrowser from 'expo-web-browser';
-import React from 'react';
 import {
   Linking,
   Pressable,
@@ -10,30 +14,28 @@ import {
   View,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { PrimaryButton } from '@/components/ui/Buttons';
-import { Icon } from '@/components/ui/Icon';
-import { COMPANY_CONFIG } from '@/config/company';
-import { Palette, Radii, Spacing, Typography } from '@/theme/tokens';
-import { openGeneralEnquiry } from '@/utils/whatsapp';
 
 export default function ContactScreen() {
   const insets = useSafeAreaInsets();
 
   const handleOpenEmail = () => {
-    Linking.openURL(`mailto:${COMPANY_CONFIG.email}`).catch(() => {});
+    Linking.openURL(`mailto:${COMPANY_CONFIG.email}`).catch(() => { });
   };
 
   const handleOpenWebsite = () => {
-    WebBrowser.openBrowserAsync(COMPANY_CONFIG.websiteUrl).catch(() => {});
+    WebBrowser.openBrowserAsync(COMPANY_CONFIG.websiteUrl).catch(() => { });
+  };
+
+  const handleOpenSocial = (url: string) => {
+    Linking.openURL(url).catch(() => {
+      WebBrowser.openBrowserAsync(url).catch(() => {});
+    });
   };
 
   return (
     <View style={styles.screen}>
       <View style={[styles.header, { paddingTop: insets.top + Spacing.xs }]}>
         <Text style={styles.title}>Contact</Text>
-        <Text style={styles.subtitle}>
-          Product enquiries, specifications &amp; project consultations
-        </Text>
       </View>
 
       <ScrollView
@@ -42,12 +44,12 @@ export default function ContactScreen() {
       >
         {/* Primary WhatsApp Enquiry */}
         <View style={styles.heroCard}>
-          <Text style={styles.heroTitle}>Direct WhatsApp Enquiry</Text>
+          <Text style={styles.heroTitle}>Chat With Us </Text>
           <Text style={styles.heroText}>
             Speak with our lighting specialists for product availability, technical guidance, or project quotations.
           </Text>
           <PrimaryButton
-            label="Enquire via WhatsApp"
+            label="Contact via WhatsApp"
             onPress={() => openGeneralEnquiry()}
             leftIcon={
               <Icon name="whatsapp" size={18} color={Palette.buttonText} />
@@ -97,7 +99,7 @@ export default function ContactScreen() {
           {COMPANY_CONFIG.telephone ? (
             <Pressable
               onPress={() =>
-                Linking.openURL(`tel:${COMPANY_CONFIG.telephone}`).catch(() => {})
+                Linking.openURL(`tel:${COMPANY_CONFIG.telephone}`).catch(() => { })
               }
               style={({ pressed }) => [styles.row, pressed && styles.pressed]}
             >
@@ -151,6 +153,34 @@ export default function ContactScreen() {
             <Icon name="arrowRight" size={16} color={Palette.textSecondary} />
           </Pressable>
         </View>
+
+        {/* Find us also in */}
+        <View style={styles.section}>
+          <Text style={styles.sectionLabel}>FIND US ALSO IN</Text>
+          <View style={styles.socialRow}>
+            {COMPANY_CONFIG.socialLinks.map((social) => (
+              <Pressable
+                key={social.id}
+                onPress={() => handleOpenSocial(social.url)}
+                accessibilityRole="button"
+                accessibilityLabel={`Open ${social.name}`}
+                style={({ pressed }) => [
+                  styles.socialCircle,
+                  pressed && styles.pressed,
+                ]}
+              >
+                {social.id === 'instagram' ? (
+                  <View style={styles.igOuter}>
+                    <View style={styles.igDot} />
+                    <View style={styles.igLens} />
+                  </View>
+                ) : (
+                  <Text style={styles.socialGlyph}>{social.glyph}</Text>
+                )}
+              </Pressable>
+            ))}
+          </View>
+        </View>
       </ScrollView>
     </View>
   );
@@ -170,11 +200,6 @@ const styles = StyleSheet.create({
   title: {
     ...Typography.h1,
     color: Palette.textPrimary,
-  },
-  subtitle: {
-    ...Typography.caption,
-    color: Palette.textSecondary,
-    marginTop: 2,
   },
   content: {
     padding: Spacing.md,
@@ -244,6 +269,52 @@ const styles = StyleSheet.create({
   rowValue: {
     ...Typography.caption,
     color: Palette.textSecondary,
+  },
+  socialRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingTop: Spacing.xs,
+  },
+  socialCircle: {
+    width: 44,
+    height: 44,
+    borderRadius: 22,
+    borderWidth: 1,
+    borderColor: Palette.border,
+    backgroundColor: Palette.background,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  socialGlyph: {
+    fontSize: 18,
+    fontWeight: '700',
+    color: Palette.textPrimary,
+  },
+  igOuter: {
+    width: 19,
+    height: 19,
+    borderRadius: 5,
+    borderWidth: 1.7,
+    borderColor: Palette.textPrimary,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  igLens: {
+    width: 8,
+    height: 8,
+    borderRadius: 4,
+    borderWidth: 1.6,
+    borderColor: Palette.textPrimary,
+  },
+  igDot: {
+    position: 'absolute',
+    top: 2.5,
+    right: 2.5,
+    width: 2.5,
+    height: 2.5,
+    borderRadius: 1.25,
+    backgroundColor: Palette.textPrimary,
   },
   pressed: {
     opacity: 0.78,

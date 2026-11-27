@@ -29,4 +29,44 @@ export const COMPANY_CONFIG = {
   telephone: null as string | null,
   address: null as string | null,
   openingHours: null as string | null,
+
+  /** Official social accounts linked from caymelighting.com */
+  socialLinks: [
+    {
+      id: 'facebook',
+      name: 'Facebook',
+      glyph: 'f',
+      url: 'https://www.facebook.com/hyundailightingae/',
+    },
+    {
+      id: 'linkedin',
+      name: 'LinkedIn',
+      glyph: 'in',
+      url: 'https://www.linkedin.com/company/hyundailighting/',
+    },
+    {
+      id: 'instagram',
+      name: 'Instagram',
+      glyph: 'IG',
+      url: 'https://www.instagram.com/hyundailight.ae',
+    },
+    {
+      id: 'x',
+      name: 'X',
+      glyph: '𝕏',
+      url: 'https://x.com/HyundaiLightAE',
+    },
+    {
+      id: 'youtube',
+      name: 'YouTube',
+      glyph: '▶\uFE0E',
+      url: 'https://www.youtube.com/@HyundaiLightingUAE',
+    },
+    {
+      id: 'tiktok',
+      name: 'TikTok',
+      glyph: '♪',
+      url: 'https://www.tiktok.com/@hyundai_lighting.ae',
+    },
+  ],
 } as const;

@@ -4,12 +4,13 @@ import React from 'react';
 import { FlatList, Pressable, StyleSheet, Text, View } from 'react-native';
 import { Icon } from '@/components/ui/Icon';
 import { ScreenHeader } from '@/components/ui/ScreenHeader';
-import { MAIN_CATEGORIES } from '@/data/catalog';
+import { useAppState } from '@/context/AppStateContext';
 import { useResponsive } from '@/hooks/useResponsive';
 import { Palette, Radii, Spacing, Typography } from '@/theme/tokens';
 import { CategoryItem } from '@/types/product';
 
 export default function AllCategoriesScreen() {
+  const { categories } = useAppState();
   const { numColumns, isTablet, maxContentWidth, scaleFont } = useResponsive();
   const cardWidth =
     numColumns === 4 ? '23.8%' : numColumns === 3 ? '32%' : '48.5%';
@@ -61,12 +62,12 @@ export default function AllCategoriesScreen() {
     <View style={styles.screen}>
       <ScreenHeader
         title="All Categories"
-        subtitle={`${MAIN_CATEGORIES.length} lighting categories`}
+        subtitle={`${categories.length} lighting categories`}
       />
 
       <FlatList
         key={`all-cats-${numColumns}`}
-        data={MAIN_CATEGORIES}
+        data={categories}
         keyExtractor={(item) => item.slug}
         numColumns={numColumns}
         renderItem={renderCategory}

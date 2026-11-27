@@ -42,9 +42,6 @@ export default function ProjectsScreen() {
     <View style={styles.screen}>
       <View style={[styles.header, { paddingTop: insets.top + Spacing.xs }]}>
         <Text style={styles.title}>Projects</Text>
-        <Text style={styles.subtitle}>
-          Architectural, residential, and commercial lighting installations
-        </Text>
       </View>
 
       <FlatList
@@ -72,11 +69,6 @@ const styles = StyleSheet.create({
   title: {
     ...Typography.h1,
     color: Palette.textPrimary,
-  },
-  subtitle: {
-    ...Typography.caption,
-    color: Palette.textSecondary,
-    marginTop: 2,
   },
   list: {
     padding: Spacing.md,
