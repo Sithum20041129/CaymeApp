@@ -1,11 +1,10 @@
-import { Tabs } from 'expo-router';
-import React from 'react';
-import { Platform, StyleSheet, Text, View } from 'react-native';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Icon } from '@/components/ui/Icon';
 import { useAppState } from '@/context/AppStateContext';
 import { useResponsive } from '@/hooks/useResponsive';
 import { Palette } from '@/theme/tokens';
+import { Tabs } from 'expo-router';
+import { Platform, StyleSheet, Text, View } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 export default function TabsLayout() {
   const insets = useSafeAreaInsets();
@@ -120,13 +119,13 @@ export default function TabsLayout() {
       />
 
       {/* Hidden nested routes that keep the bottom tab bar visible */}
-      <Tabs.Screen name="product/[id]" options={{ href: null }} />
-      <Tabs.Screen name="category/[slug]" options={{ href: null }} />
-      <Tabs.Screen name="brand/[slug]" options={{ href: null }} />
-      <Tabs.Screen name="project/[id]" options={{ href: null }} />
-      <Tabs.Screen name="compare" options={{ href: null }} />
-      <Tabs.Screen name="about" options={{ href: null }} />
-      <Tabs.Screen name="privacy" options={{ href: null }} />
+      <Tabs.Screen name="product/[id]" options={{ tabBarItemStyle: { display: 'none' } }} />
+      <Tabs.Screen name="category/[slug]" options={{ tabBarItemStyle: { display: 'none' } }} />
+      <Tabs.Screen name="brand/[slug]" options={{ tabBarItemStyle: { display: 'none' } }} />
+      <Tabs.Screen name="project/[id]" options={{ tabBarItemStyle: { display: 'none' } }} />
+      <Tabs.Screen name="compare" options={{ tabBarItemStyle: { display: 'none' } }} />
+      <Tabs.Screen name="about" options={{ tabBarItemStyle: { display: 'none' } }} />
+      <Tabs.Screen name="privacy" options={{ tabBarItemStyle: { display: 'none' } }} />
     </Tabs>
   );
 }

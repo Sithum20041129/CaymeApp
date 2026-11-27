@@ -1,7 +1,6 @@
-import { SymbolView, SFSymbol } from 'expo-symbols';
-import React from 'react';
-import { Platform, Text, View } from 'react-native';
 import { Palette } from '@/theme/tokens';
+import { SFSymbol, SymbolView } from 'expo-symbols';
+import { Platform, Text, View } from 'react-native';
 
 export type AppIconName =
   | 'home'

@@ -1,14 +1,3 @@
-import { Image } from 'expo-image';
-import { router } from 'expo-router';
-import React, { useMemo } from 'react';
-import {
-  Pressable,
-  ScrollView,
-  StyleSheet,
-  Text,
-  View,
-} from 'react-native';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Icon } from '@/components/ui/Icon';
 import { ProductCard } from '@/components/ui/ProductCard';
 import { OfflineBanner } from '@/components/ui/StateViews';
@@ -22,6 +11,17 @@ import {
 } from '@/data/catalog';
 import { useResponsive } from '@/hooks/useResponsive';
 import { Palette, Radii, Spacing, Typography } from '@/theme/tokens';
+import { Image } from 'expo-image';
+import { router } from 'expo-router';
+import { useMemo } from 'react';
+import {
+  Pressable,
+  ScrollView,
+  StyleSheet,
+  Text,
+  View,
+} from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 export default function HomeScreen() {
   const insets = useSafeAreaInsets();
