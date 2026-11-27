@@ -1,19 +1,6 @@
-import { Icon } from '@/components/ui/Icon';
-import { ProductCard } from '@/components/ui/ProductCard';
-import { OfflineBanner } from '@/components/ui/StateViews';
-import { COMPANY_CONFIG } from '@/config/company';
-import { useAppState } from '@/context/AppStateContext';
-import {
-  BRANDS,
-  COLLECTIONS,
-  MAIN_CATEGORIES,
-  SEED_PROJECTS,
-} from '@/data/catalog';
-import { useResponsive } from '@/hooks/useResponsive';
-import { Palette, Radii, Spacing, Typography } from '@/theme/tokens';
 import { Image } from 'expo-image';
 import { router } from 'expo-router';
-import { useMemo } from 'react';
+import React, { useMemo, useRef } from 'react';
 import {
   Pressable,
   ScrollView,
@@ -22,9 +9,57 @@ import {
   View,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { Icon } from '@/components/ui/Icon';
+import { ProductCard } from '@/components/ui/ProductCard';
+import { OfflineBanner } from '@/components/ui/StateViews';
+import { COMPANY_CONFIG } from '@/config/company';
+import { useAppState } from '@/context/AppStateContext';
+import {
+  BRANDS,
+  MAIN_CATEGORIES,
+  SEED_PROJECTS,
+} from '@/data/catalog';
+
+const AREAS = [
+  {
+    slug: 'wall-light',
+    title: 'Bathroom',
+    subtitle: 'Moisture-resistant vanity & mirror luminaires',
+    categoryName: 'Wall Light',
+    imageUrl:
+      'https://caymelighting.com/wp-content/uploads/2025/11/view-futuristic-lighting-lamp-design-scaled.jpg',
+  },
+  {
+    slug: 'pendant-light',
+    title: 'Living Room',
+    subtitle: 'Warm pendants, chandeliers & ambient accents',
+    categoryName: 'Pendant Light',
+    imageUrl:
+      'https://caymelighting.com/wp-content/uploads/2026/09/polo-villa-cover-image.webp',
+  },
+  {
+    slug: 'ceiling-light',
+    title: 'Kitchen',
+    subtitle: 'Task downlights, linear strips & ceiling fixtures',
+    categoryName: 'Ceiling Light',
+    imageUrl:
+      'https://caymelighting.com/wp-content/uploads/2026/10/cover-image.webp',
+  },
+  {
+    slug: 'outdoor-light',
+    title: 'Garden',
+    subtitle: 'Weatherproof landscape, path & facade lighting',
+    categoryName: 'Outdoor Light',
+    imageUrl:
+      'https://caymelighting.com/wp-content/uploads/2026/04/web-image-Dubai-hills.webp',
+  },
+];
+import { useResponsive } from '@/hooks/useResponsive';
+import { Palette, Radii, Spacing, Typography } from '@/theme/tokens';
 
 export default function HomeScreen() {
   const insets = useSafeAreaInsets();
+  const categoryScrollRef = useRef<React.ComponentRef<typeof ScrollView>>(null);
   const {
     isTablet,
     numColumns,
@@ -151,56 +186,73 @@ export default function HomeScreen() {
               Browse by Category
             </Text>
             <Pressable
-              onPress={() => router.push('/(tabs)/products')}
+              onPress={() => router.push('/(tabs)/categories')}
               hitSlop={8}
+              style={styles.seeAllBtn}
             >
-              <Text style={styles.seeAll}>All Products</Text>
+              <Text style={styles.seeAll}>All Categories</Text>
+              <Text style={styles.seeAllArrow}>&gt;</Text>
             </Pressable>
           </View>
 
-          <ScrollView
-            horizontal
-            showsHorizontalScrollIndicator={false}
-            contentContainerStyle={styles.horizontalList}
-          >
-            {MAIN_CATEGORIES.map((cat) => (
-              <Pressable
-                key={cat.slug}
-                onPress={() =>
-                  router.push({
-                    pathname: '/category/[slug]',
-                    params: { slug: cat.slug, name: cat.name },
-                  })
-                }
-                style={({ pressed }) => [
-                  styles.categoryCard,
-                  { width: categoryCardSize },
-                  pressed && styles.pressed,
-                ]}
-              >
-                <View
-                  style={[
-                    styles.categoryImageBox,
-                    { width: categoryCardSize, height: categoryCardSize },
+          <View style={styles.sliderWrapper}>
+            <ScrollView
+              ref={categoryScrollRef}
+              horizontal
+              showsHorizontalScrollIndicator={false}
+              contentContainerStyle={styles.horizontalList}
+            >
+              {MAIN_CATEGORIES.map((cat) => (
+                <Pressable
+                  key={cat.slug}
+                  onPress={() =>
+                    router.push({
+                      pathname: '/category/[slug]',
+                      params: { slug: cat.slug, name: cat.name },
+                    })
+                  }
+                  style={({ pressed }) => [
+                    styles.categoryCard,
+                    { width: categoryCardSize },
+                    pressed && styles.pressed,
                   ]}
                 >
-                  {cat.imageUrl ? (
-                    <Image
-                      source={{ uri: cat.imageUrl }}
-                      style={styles.categoryImage}
-                      contentFit="contain"
-                      cachePolicy="memory-disk"
-                    />
-                  ) : (
-                    <Icon name="grid" size={26} color={Palette.textPrimary} />
-                  )}
-                </View>
-                <Text style={styles.categoryName} numberOfLines={1}>
-                  {cat.name}
-                </Text>
-              </Pressable>
-            ))}
-          </ScrollView>
+                  <View
+                    style={[
+                      styles.categoryImageBox,
+                      { width: categoryCardSize, height: categoryCardSize },
+                    ]}
+                  >
+                    {cat.imageUrl ? (
+                      <Image
+                        source={{ uri: cat.imageUrl }}
+                        style={styles.categoryImage}
+                        contentFit="contain"
+                        cachePolicy="memory-disk"
+                      />
+                    ) : (
+                      <Icon name="grid" size={26} color={Palette.textPrimary} />
+                    )}
+                  </View>
+                  <Text style={styles.categoryName} numberOfLines={1}>
+                    {cat.name}
+                  </Text>
+                </Pressable>
+              ))}
+            </ScrollView>
+
+            <Pressable
+              onPress={() =>
+                categoryScrollRef.current?.scrollTo({ x: 260, animated: true })
+              }
+              hitSlop={8}
+              accessibilityRole="button"
+              accessibilityLabel="Scroll categories"
+              style={styles.sliderNextBtn}
+            >
+              <Text style={styles.sliderNextText}>&gt;</Text>
+            </Pressable>
+          </View>
         </View>
 
         {/* D. Shop by Brand */}
@@ -287,36 +339,43 @@ export default function HomeScreen() {
           </View>
         </View>
 
-        {/* F. Explore Collections */}
-        <View style={styles.section}>
+        {/* F. Areas */}
+        <View style={[styles.section, isTablet && { maxWidth: maxContentWidth, width: '100%', alignSelf: 'center' }]}>
           <View style={styles.sectionHeader}>
-            <Text style={styles.sectionTitle}>Explore Collections</Text>
+            <Text style={[styles.sectionTitle, { fontSize: scaleFont(20) }]}>
+              Areas
+            </Text>
           </View>
-          <View style={styles.collectionGrid}>
-            {COLLECTIONS.map((col) => (
+          <View style={styles.areasGrid}>
+            {AREAS.map((area) => (
               <Pressable
-                key={col.slug}
+                key={area.slug}
                 onPress={() =>
                   router.push({
                     pathname: '/category/[slug]',
-                    params: { slug: col.slug, name: col.categoryFilter },
+                    params: { slug: area.slug, name: area.categoryName },
                   })
                 }
                 style={({ pressed }) => [
-                  styles.collectionCard,
+                  styles.areaCard,
+                  isTablet && { width: '23.8%' },
                   pressed && styles.pressed,
                 ]}
               >
                 <Image
-                  source={{ uri: col.imageUrl }}
-                  style={styles.collectionImg}
+                  source={{ uri: area.imageUrl }}
+                  style={styles.areaImg}
                   contentFit="cover"
                   cachePolicy="memory-disk"
                 />
-                <View style={styles.collectionBody}>
-                  <Text style={styles.collectionTitle}>{col.title}</Text>
-                  <Text style={styles.collectionSub} numberOfLines={2}>
-                    {col.subtitle}
+                <View style={styles.areaBody}>
+                  <Text
+                    style={[styles.areaTitle, { fontSize: scaleFont(16) }]}
+                  >
+                    {area.title}
+                  </Text>
+                  <Text style={styles.areaSub} numberOfLines={2}>
+                    {area.subtitle}
                   </Text>
                 </View>
               </Pressable>
@@ -325,9 +384,11 @@ export default function HomeScreen() {
         </View>
 
         {/* G. Projects & Inspiration */}
-        <View style={styles.section}>
+        <View style={[styles.section, isTablet && { maxWidth: maxContentWidth, width: '100%', alignSelf: 'center' }]}>
           <View style={styles.sectionHeader}>
-            <Text style={styles.sectionTitle}>Projects &amp; Inspiration</Text>
+            <Text style={[styles.sectionTitle, { fontSize: scaleFont(20) }]}>
+              Projects &amp; Inspiration
+            </Text>
             <Pressable
               onPress={() => router.push('/(tabs)/projects')}
               hitSlop={8}
@@ -365,38 +426,6 @@ export default function HomeScreen() {
               </Pressable>
             ))}
           </ScrollView>
-        </View>
-
-        {/* H. Minimal Footer */}
-        <View style={styles.footer}>
-          <Text style={styles.footerHeading}>{COMPANY_CONFIG.name}</Text>
-          <Text style={styles.footerSub}>
-            Thoughtfully engineered residential, commercial, and architectural lighting.
-          </Text>
-          <View style={styles.footerLinks}>
-            <Pressable onPress={() => router.push('/about')} style={styles.footerLinkRow}>
-              <Text style={styles.footerLinkText}>About Cayman Lighting</Text>
-              <Icon name="arrowRight" size={14} color={Palette.textSecondary} />
-            </Pressable>
-            <Pressable
-              onPress={() => router.push('/(tabs)/contact')}
-              style={styles.footerLinkRow}
-            >
-              <Text style={styles.footerLinkText}>Contact Us</Text>
-              <Icon name="arrowRight" size={14} color={Palette.textSecondary} />
-            </Pressable>
-            <Pressable
-              onPress={() => router.push('/(tabs)/products')}
-              style={styles.footerLinkRow}
-            >
-              <Text style={styles.footerLinkText}>All Products</Text>
-              <Icon name="arrowRight" size={14} color={Palette.textSecondary} />
-            </Pressable>
-            <Pressable onPress={() => router.push('/privacy')} style={styles.footerLinkRow}>
-              <Text style={styles.footerLinkText}>Privacy Policy</Text>
-              <Icon name="arrowRight" size={14} color={Palette.textSecondary} />
-            </Pressable>
-          </View>
         </View>
       </ScrollView>
     </View>
@@ -522,10 +551,40 @@ const styles = StyleSheet.create({
     ...Typography.h2,
     color: Palette.textPrimary,
   },
+  seeAllBtn: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 4,
+  },
   seeAll: {
     ...Typography.captionMedium,
     color: Palette.textSecondary,
     textDecorationLine: 'underline',
+  },
+  seeAllArrow: {
+    ...Typography.captionMedium,
+    color: Palette.textSecondary,
+  },
+  sliderWrapper: {
+    position: 'relative',
+  },
+  sliderNextBtn: {
+    position: 'absolute',
+    right: Spacing.xs,
+    top: 38,
+    width: 30,
+    height: 30,
+    borderRadius: 15,
+    backgroundColor: Palette.overlayLight,
+    borderWidth: 1,
+    borderColor: Palette.borderStrong,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  sliderNextText: {
+    ...Typography.bodyMedium,
+    color: Palette.textPrimary,
+    lineHeight: 18,
   },
   horizontalList: {
     paddingHorizontal: Spacing.md,
@@ -596,34 +655,35 @@ const styles = StyleSheet.create({
   gridItem: {
     width: '48.5%',
   },
-  collectionGrid: {
-    paddingHorizontal: Spacing.md,
-    gap: Spacing.sm,
-  },
-  collectionCard: {
+  areasGrid: {
     flexDirection: 'row',
-    alignItems: 'center',
+    flexWrap: 'wrap',
+    paddingHorizontal: Spacing.md,
+    justifyContent: 'space-between',
+    rowGap: Spacing.sm,
+  },
+  areaCard: {
+    width: '48.5%',
     backgroundColor: Palette.background,
     borderWidth: 1,
     borderColor: Palette.border,
     borderRadius: Radii.sm,
     overflow: 'hidden',
   },
-  collectionImg: {
-    width: 96,
-    height: 96,
+  areaImg: {
+    width: '100%',
+    aspectRatio: 1.25,
     backgroundColor: Palette.surfaceSecondary,
   },
-  collectionBody: {
-    flex: 1,
-    padding: Spacing.md,
-    gap: 4,
+  areaBody: {
+    padding: Spacing.sm,
+    gap: 3,
   },
-  collectionTitle: {
+  areaTitle: {
     ...Typography.h3,
     color: Palette.textPrimary,
   },
-  collectionSub: {
+  areaSub: {
     ...Typography.caption,
     color: Palette.textSecondary,
   },

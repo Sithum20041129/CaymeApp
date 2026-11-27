@@ -183,55 +183,68 @@ export default function ProductDetailScreen() {
       >
         <View style={isTablet ? { width: '100%', maxWidth: maxContentWidth } : { width: '100%' }}>
         {/* A. Product Image Gallery */}
-        <View style={[styles.galleryContainer, { width: isTablet ? '100%' : width, height: galleryHeight }]}>
-          {product.images.length > 0 ? (
-            <>
-              <FlatList
-                data={product.images}
-                keyExtractor={(uri, idx) => `${uri}-${idx}`}
-                horizontal
-                pagingEnabled
-                showsHorizontalScrollIndicator={false}
-                onMomentumScrollEnd={handleGalleryScroll}
-                renderItem={({ item }) => (
+        {(() => {
+          const slideWidth = isTablet ? Math.min(width, maxContentWidth) : width;
+          const imgWidth = Math.max(slideWidth - Spacing.lg * 2, 160);
+          const imgHeight = Math.max(galleryHeight - Spacing.lg * 2, 160);
+          return (
+            <View style={[styles.galleryContainer, { width: slideWidth, height: galleryHeight }]}>
+              {product.images.length > 0 ? (
+                <>
+                  <FlatList
+                    data={product.images}
+                    keyExtractor={(uri, idx) => `${uri}-${idx}`}
+                    horizontal
+                    pagingEnabled
+                    showsHorizontalScrollIndicator={false}
+                    onMomentumScrollEnd={handleGalleryScroll}
+                    renderItem={({ item }) => (
+                      <Pressable
+                        onPress={() => setZoomVisible(true)}
+                        style={[styles.slide, { width: slideWidth, height: galleryHeight }]}
+                      >
+                        <Image
+                          source={{ uri: item }}
+                          style={{ width: imgWidth, height: imgHeight }}
+                          contentFit="contain"
+                          transition={200}
+                          cachePolicy="memory-disk"
+                        />
+                      </Pressable>
+                    )}
+                  />
+                  {product.images.length > 1 && (
+                    <View style={styles.pagination}>
+                      {product.images.map((_, idx) => (
+                        <View
+                          key={idx}
+                          style={[
+                            styles.dot,
+                            idx === activeImageIndex && styles.dotActive,
+                          ]}
+                        />
+                      ))}
+                    </View>
+                  )}
                   <Pressable
                     onPress={() => setZoomVisible(true)}
-                    style={[styles.slide, { width: isTablet ? Math.min(width, maxContentWidth) : width, height: galleryHeight }]}
+                    hitSlop={10}
+                    accessibilityRole="button"
+                    accessibilityLabel="Zoom product image"
+                    style={styles.zoomIconBtn}
                   >
-                    <Image
-                      source={{ uri: item }}
-                      style={styles.galleryImage}
-                      contentFit="contain"
-                      transition={200}
-                      cachePolicy="memory-disk"
-                    />
+                    <Icon name="search" size={18} color={Palette.textPrimary} />
                   </Pressable>
-                )}
-              />
-              {product.images.length > 1 && (
-                <View style={styles.pagination}>
-                  {product.images.map((_, idx) => (
-                    <View
-                      key={idx}
-                      style={[
-                        styles.dot,
-                        idx === activeImageIndex && styles.dotActive,
-                      ]}
-                    />
-                  ))}
+                </>
+              ) : (
+                <View style={styles.noImageBox}>
+                  <Icon name="grid" size={36} color={Palette.disabled} />
+                  <Text style={styles.noImageText}>No product image available</Text>
                 </View>
               )}
-              <View style={styles.zoomHint}>
-                <Text style={styles.zoomHintText}>Tap image to zoom</Text>
-              </View>
-            </>
-          ) : (
-            <View style={styles.noImageBox}>
-              <Icon name="grid" size={36} color={Palette.disabled} />
-              <Text style={styles.noImageText}>No product image available</Text>
             </View>
-          )}
-        </View>
+          );
+        })()}
 
         {/* B. Product Info */}
         <View style={styles.section}>
@@ -508,14 +521,18 @@ const styles = StyleSheet.create({
     width: 18,
     backgroundColor: Palette.textPrimary,
   },
-  zoomHint: {
+  zoomIconBtn: {
     position: 'absolute',
     bottom: Spacing.sm,
     right: Spacing.md,
-  },
-  zoomHintText: {
-    ...Typography.micro,
-    color: Palette.textMuted,
+    width: 36,
+    height: 36,
+    borderRadius: Radii.pill,
+    backgroundColor: Palette.overlayLight,
+    borderWidth: 1,
+    borderColor: Palette.border,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   noImageBox: {
     flex: 1,

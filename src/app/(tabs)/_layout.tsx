@@ -16,6 +16,7 @@ export default function TabsLayout() {
 
   return (
     <Tabs
+      backBehavior="history"
       screenOptions={{
         headerShown: false,
         tabBarActiveTintColor: Palette.textPrimary,
@@ -121,6 +122,7 @@ export default function TabsLayout() {
       {/* Hidden nested routes that keep the bottom tab bar visible */}
       <Tabs.Screen name="product/[id]" options={{ tabBarItemStyle: { display: 'none' } }} />
       <Tabs.Screen name="category/[slug]" options={{ tabBarItemStyle: { display: 'none' } }} />
+      <Tabs.Screen name="categories" options={{ tabBarItemStyle: { display: 'none' } }} />
       <Tabs.Screen name="brand/[slug]" options={{ tabBarItemStyle: { display: 'none' } }} />
       <Tabs.Screen name="project/[id]" options={{ tabBarItemStyle: { display: 'none' } }} />
       <Tabs.Screen name="compare" options={{ tabBarItemStyle: { display: 'none' } }} />

@@ -26,7 +26,13 @@ export function ScreenHeader({
         <View style={styles.left}>
           {showBack && (
             <Pressable
-              onPress={() => router.back()}
+              onPress={() => {
+                if (router.canGoBack()) {
+                  router.back();
+                } else {
+                  router.replace('/(tabs)/products');
+                }
+              }}
               hitSlop={12}
               accessibilityRole="button"
               accessibilityLabel="Go back"
